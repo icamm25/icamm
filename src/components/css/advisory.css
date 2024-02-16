@@ -1,0 +1,12 @@
+.white-bg{
+    width:100%;
+    padding-top:50px;
+}
+
+.organizing-title{
+    text-align: center;
+    margin-bottom:100px;
+    font-size: 40px;
+    font-family: var(--text1);
+    color:black;
+}

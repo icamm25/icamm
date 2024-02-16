@@ -8,8 +8,6 @@ export default function Organizing(){
 
         <div className='organizing-container'>
 
-        
-
         {organizing.map((entity, index) => (
 
           <div key={index} className='entity'>
