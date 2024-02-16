@@ -1,16 +1,18 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
-import Header from './components/header'
 import College from './components/college'
+import Department from './components/department'
+import Conference from './components/conference'
+import Organizing from './components/organizing'
 
 function App() {
 
   return (
     <>
-      <Header />
+
       <College />
+      <Department />
+      <Conference />
+      <Organizing />
     </>
   )
 }
