@@ -1,0 +1,33 @@
+.btn {
+    border:1px solid var(--bg4);
+    border-radius: 10px 0 0 10px;
+    outline: none;
+    font-family: var(--text1);
+    font-size: 20px;
+    color:#E8C1A2;
+    cursor: pointer;
+    background-color:#2A2F33;
+  }
+  
+  .btn:hover {
+    background-color:var(--bg4);
+    color: var(--bg2);
+  }
+  .register-button{
+    height: 37px;
+    display: flex;
+    border: 1px solid #E8C1A2;
+    border-radius: 10px;
+  }
+  .right-arrow{
+    background-color: #E8C1A2;
+    align-self: auto;
+    border-radius: 0 10px 10px 0;
+  }
+  .arow{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    background-color: #E8C1A2;
+    border-radius: 0 10px 10px 0;
+  }
