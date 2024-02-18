@@ -7,6 +7,7 @@ import { IoMdClose } from "react-icons/io";
 import { MdKeyboardArrowDown } from "react-icons/md";
 import {about,teams,authors} from "./menuitems.js"
 import "./navbar.css"
+import "./homepage.css"
 const scrollToSection=(elementRef)=>{
     window.scrollTo({
       top:elementRef.current.offsetTop,
@@ -16,10 +17,14 @@ const scrollToSection=(elementRef)=>{
 function Navbar() {
     const home=useRef(null);
     const [click,setClick]=useState(false);
+    const [active,setActive]=useState('home')
     const [dropdown, setDropdown] = useState(false);
     const[dropdown2,setDropdown2]=useState(false)
     const[dropdown3,setDropdown3]=useState(false)
     const closeMobileMenu = () => setClick(false);
+    const handleActive=(tab)=>{
+      setActive(tab);
+    }
     const handleClick=()=>{
         setClick(!click)
     }
@@ -74,7 +79,7 @@ function Navbar() {
     };
     
   return (
-    <div className='header'>
+    <div className='h_header'>
             <div className="navbar">
             <Link to='#home' className='nav-logo' onClick={()=>scrollToSection(home)}>
               <div className='span-logo'>
@@ -85,24 +90,25 @@ function Navbar() {
            <li>{click?<IoMdClose className='close-icon'/>:<FaBars className='open-icon'/>}</li>
         </div>
         <ul className={click?'nav-menu active':'nav-menu'}>
-        <li className='nav-item'>
-            <Link to='#home' className='nav-links' onClick={closeMobileMenu}>
+        <li  className={`nav-item ${active==='home'?'active':''}`}>
+            <Link to='#home' className='nav-links' onClick={()=>{
+              closeMobileMenu()
+              handleActive('home')}}>
               Home
             </Link>
           </li>
-          <li className={click?'items':'nav-item'}
+          <li className={click ? 'items' : (active === 'about' ? 'nav-item active' : 'nav-item')}
           onMouseLeave={onMouseLeave}
-           onMouseEnter={onMouseEnter}
-           
+           onMouseEnter={onMouseEnter}   
            >
             <Link to='#about' className='nav-links' onClick={closeMobileMenu}>
               <span className='span-drop'>About <MdKeyboardArrowDown className='drop-icon'/></span>
             </Link>
-            {dropdown && <Dropdown value={about} />}
+            {dropdown && <Dropdown  handleActive={handleActive} value={about} tab={'about'} />}
           </li>
           {/* --about- */}
           <li className={click?'nav-expand-item':'items'}>
-            <Link to='#college' className='nav-links' onClick={closeMobileMenu}>
+            <Link to='#college' className='nav-links' onClick={()=>closeMobileMenu()}>
               College
             </Link>
             <Link to='#department' className='nav-links' onClick={closeMobileMenu}>
@@ -113,19 +119,21 @@ function Navbar() {
             </Link>
           </li>
           {/* -- */}
-          <li className='nav-item'>
-            <Link to='#domain' className='nav-links' onClick={closeMobileMenu}>
+          <li className={`nav-item ${active==='domain'?'active':''}`}>
+            <Link to='#domain' className='nav-links' onClick={()=>{
+              closeMobileMenu()
+              handleActive('domain')}}>
               Domain
             </Link>
           </li>
-          <li className={click?'items':'nav-item'}
+          <li className={click ? 'items' : (active === 'teams' ? 'nav-item active' : 'nav-item')}
           onMouseLeave={onMouseLeave2}
           onMouseEnter={onMouseEnter2}
           >
             <Link to='#team' className='nav-links' onClick={closeMobileMenu}>
              <span className="span-drop"> Team<MdKeyboardArrowDown className='drop-icon'/></span>
             </Link>
-            {dropdown2 && <Dropdown value={teams}/>}
+            {dropdown2 && <Dropdown handleActive={handleActive}  value={teams} tab={'teams'}/>}
           </li>
           {/* --team-- */}
           <li className={click?'nav-expand-item':'items'}>
@@ -140,19 +148,21 @@ function Navbar() {
             </Link>
           </li>
           {/* -- */}
-          <li className='nav-item'>
-            <Link to='#speakers' className='nav-links' onClick={closeMobileMenu}>
+          <li className={`nav-item ${active==='speakers'?'active':''}`}>
+            <Link to='#speakers' className='nav-links' onClick={()=>{
+              closeMobileMenu()
+              handleActive('speakers')}}>
               Speakers
             </Link>
           </li>
-          <li className={click?'items':'nav-item'}
+          <li className={click ? 'items' : (active === 'authors' ? 'nav-item active' : 'nav-item')}
              onMouseLeave={onMouseLeave3}
              onMouseEnter={onMouseEnter3}
           >
             <Link to='#for-authors' className='nav-links' onClick={closeMobileMenu}>
               <span className="span-drop">For-authors<MdKeyboardArrowDown className='drop-icon'/></span>
             </Link>
-            {dropdown3 && <Dropdown value={authors}/>}
+            {dropdown3 && <Dropdown handleActive={handleActive} value={authors} tab={'authors'}/>}
           </li>
           {/* -authors- */}
           <li className={click?'nav-expand-item':'items'}>
@@ -167,8 +177,10 @@ function Navbar() {
             </Link>
           </li>
           {/* -- */}
-          <li className='nav-item'>
-            <Link to='#important-date' className='nav-links' onClick={closeMobileMenu}>
+          <li className={`nav-item ${active==='important-date'?'active':''}`}>
+            <Link to='#important-date' className='nav-links' onClick={()=>{
+              closeMobileMenu()
+              handleActive('important-date')}}>
               Important date
             </Link>
           </li>
@@ -184,6 +196,29 @@ function Navbar() {
         </ul>
         <Button/>
         </div>
+        <div className="overlay"></div>
+        <video  className='psg-video'  src="src\assets\video\PSGVideo.mp4" autoPlay loop muted></video>
+        <div className="content">
+            <div className="section_top">
+                <h2 className='h_conference'>Fourth International Conference</h2>
+                <h1 className='h_topic'>APPLIED MATHEMATICAL MODEL</h1>
+                <h1 className='h_name'>(ICAMM 2025)</h1>
+                <h3 className='h_month'>Month 00-00-2025</h3>
+            </div>
+            <div className="section_bottom">
+                <div className="h-left">
+                    <img src="src\assets\images\psg-logo.jpg" alt="" style={{width:"130px",height:"150px"}}/>
+                </div>
+                <div className="h-right">
+                    <p className='h_organizer'>Organized by</p>
+                    <p className='h_department'>Department of Mathematics</p>
+                    <h2 className='h_college'>PSG COLLEGE OF TECHNOLOGY</h2>
+                    <p className='h_place'>Coimbatore-641004,Tamilnadu,India</p>
+                </div>
+                .
+            </div>
+        </div>
+
     </div>
   )
 }

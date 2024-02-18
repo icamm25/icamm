@@ -1,4 +1,6 @@
-
+.h_header{
+  height: 100svh;
+}
 .navbar {
     background:#2A2F33;
     height: 74px;
@@ -8,11 +10,11 @@
     align-items: center;
     font-family: var(--text1);
     font-size: 1.3rem;
-    position: sticky;
+    position:fixed;
+    z-index: 5;
+
   }
   .nav-menu {
-    /* display: grid;
-    grid-template-columns: repeat(7, auto); */
     display: flex;
     align-items: center;
     gap: 20px;
@@ -30,9 +32,48 @@
     display: flex;
     align-items: center;
     height: 74px;
+    cursor: pointer;
+    position: relative;
+  }
+  .nav-item::after{
+      content: '';
+      position: absolute;
+      width: 0; 
+      display: block;
+      margin-top: 5px;
+      right: 0;
+      bottom:20%;
+      background:var(--bg4);
+      transition: width .2s ease;
+  }
+  .nav-item:hover:after{
+    width: 50%;
+    left: 0;
+    background:var(--bg4);
+    height: 3px;
+  }
+  .nav-item.active{
+    display: flex;
+    align-items: center;
+    height: 74px;
+    cursor: pointer;
+    position: relative;
+  }
+  .nav-item.active::after{
+    content: '';
+      position: absolute;
+      width:100%; 
+      height: 3px;
+      display: block;
+      margin-top: 5px;
+      right: 0;
+      bottom:20%;
+      background:var(--bg4);
+      transition: width .2s ease;
+
   }
   .items{
-    display: none;
+    display:none;
   }
   .span-drop{
     display: flex;
@@ -64,17 +105,6 @@
     text-decoration: none;
     padding: 0.5rem 0.3rem;
   }
-  
-  /* .nav-links:hover {
-    background-color: #1888ff;
-    border-radius: 4px;
-    transition: all 0.2s ease-out;
-  }
-   */
-  /* .fa-bars {
-    color: #fff;
-  } */
-  
   .nav-links-mobile {
     display: none;
   }
@@ -86,6 +116,12 @@
   @media screen and (max-width: 1150px) {
     .NavbarItems {
       position: relative;
+    }
+    .nav-item::after{
+      display: none;
+    }
+    .nav-item.active::after{
+      display: none;
     }
   
     .nav-menu {
@@ -101,6 +137,7 @@
       left: -100%;
       opacity: 1;
       transition: all 0.5s ease;
+      z-index:5;
     }
   
     .nav-menu.active {
@@ -109,8 +146,9 @@
       left: 0;
       opacity: 1;
       transition: all 0.5s ease;
-      z-index: 1;
+      z-index: 5;
       padding-top: 20px;
+      transform: translateZ(50%);
     }
     .nav-item{
       height:30px;

@@ -4,12 +4,11 @@ import College from './components/college'
 import Department from './components/department'
 import Conference from './components/conference'
 import Organizing from './components/organizing'
-
 function App() {
 
   return (
     <>
-      <Header />
+      <Header/>
       <College />
       <Department />
       <Conference />
