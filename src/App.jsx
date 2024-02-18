@@ -8,6 +8,7 @@ import Advisory from './components/advisory'
 import Technical from './components/technical'
 import Speakers from './components/speakers'
 import Register from './components/register'
+import Registration from './components/registration'
 import Contact from './components/contact'
 import Footer from './components/footer'
 function App() {
@@ -23,6 +24,7 @@ function App() {
       <Technical />
       <Speakers />
       <Register />
+      <Registration/>
       <Contact />
       <Footer />
 

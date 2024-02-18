@@ -197,7 +197,7 @@ function Navbar() {
         <Button/>
         </div>
         <div className="overlay"></div>
-        <video  className='psg-video'  src="src\assets\video\PSGVideo.mp4" autoPlay loop muted></video>
+        <video  className='psg-video'  src="src\assets\videos\PSGVideo.mp4" autoPlay loop muted></video>
         <div className="content">
             <div className="section_top">
                 <h2 className='h_conference'>Fourth International Conference</h2>
