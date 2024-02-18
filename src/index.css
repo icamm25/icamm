@@ -1,0 +1,23 @@
+:root{
+    --bg:#FFFFFF;
+    --bg2:#2A2F33;
+    --bg3:#30536F;
+    --bg4:#E8C1A2;
+    --text1:'Montserrat',sans-serif;
+    --text2:'open sans',sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+}
+
+a{
+    text-decoration: none;
+    color:inherit;
+}
