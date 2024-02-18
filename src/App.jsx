@@ -2,6 +2,7 @@ import './App.css'
 import College from './components/college'
 import Department from './components/department'
 import Conference from './components/conference'
+import Domains from './components/domains'
 import Organizing from './components/organizing'
 import Advisory from './components/advisory'
 import Technical from './components/technical'
@@ -17,6 +18,7 @@ function App() {
       <College />
       <Department />
       <Conference />
+      <Domains />
       <Organizing />
       <Advisory />
       <Technical />
