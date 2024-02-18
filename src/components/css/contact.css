@@ -29,3 +29,17 @@
     display: flex;
     justify-content: center;
 }
+
+@media screen and (min-width:492px) and (max-width:768px){
+    .contact-container p{
+        font-size:18px;
+    }
+}
+
+@media(max-width:492px){
+    .contact-container p{
+        width:300px;
+        font-size: 16px;
+        text-align: center;
+    }
+}

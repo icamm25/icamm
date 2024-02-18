@@ -3,7 +3,7 @@ import {Fade, fade} from 'react-reveal'
 
 export default function Conference(){
     return(
-        <div className='conference-container'>
+        <div className='conference-container' id='#conference'>
             <div className='conference-inner'>
                 <div className='conference-l1'></div>
                 <div className='conference-l2'></div>

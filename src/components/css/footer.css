@@ -11,6 +11,7 @@
     font-weight:bold;
     color:white;
     font-family:var(--text2);
+    margin-bottom:80px;
 
 }
 
@@ -18,10 +19,13 @@
     font-size:20px;
     color:white;
     font-family:var(--text2);
+    margin-bottom:80px;
 }
 
 .footer1{
     color:white;
+    font-family:var(--text1);
+    margin-bottom:80px;
 }
 
 .footer3 ul{
@@ -30,4 +34,45 @@
 
 .footer3 ul li:hover{
     color:var(--bg4);
+}
+
+.team{
+    width:120px;
+    padding: 5px;
+    border:2px solid var(--bg4);
+    border-radius: 10px;
+    text-align: center;
+    font-size:18px;
+    font-family: var(--text1);
+}
+
+.team:hover{
+    background-color: var(--bg4);
+    color:black;
+    cursor: pointer;
+    font-weight: bold;
+
+}
+
+
+@media screen and (min-width:768px) and (max-width:992px){
+    
+    .footer2, .footer3{
+        font-size:16px;
+    }
+
+    
+}
+
+
+@media(max-width:768px){
+    .footer-container{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer1,.footer2,.footer3{
+        text-align: center;
+        justify-content: center;
+    }
 }

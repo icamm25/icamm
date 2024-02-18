@@ -81,7 +81,7 @@ function Navbar() {
   return (
     <div className='h_header'>
             <div className="navbar">
-            <Link to='#home' className='nav-logo' onClick={()=>scrollToSection(home)}>
+            <Link to='#home' className='nav-logo' smooth={true} duration={1000} onClick={()=>scrollToSection(home)}>
               <div className='span-logo'>
               <img className='logo-image' src="src\assets\images\logo.png" alt="" />
               </div>
@@ -91,7 +91,7 @@ function Navbar() {
         </div>
         <ul className={click?'nav-menu active':'nav-menu'}>
         <li  className={`nav-item ${active==='home'?'active':''}`}>
-            <Link to='#home' className='nav-links' onClick={()=>{
+            <Link to='#home' smooth={true} duration={1000} className='nav-links' onClick={()=>{
               closeMobileMenu()
               handleActive('home')}}>
               Home
@@ -101,26 +101,26 @@ function Navbar() {
           onMouseLeave={onMouseLeave}
            onMouseEnter={onMouseEnter}   
            >
-            <Link to='#about' className='nav-links' onClick={closeMobileMenu}>
+            <Link to='#about' smooth={true} duration={1000} className='nav-links' onClick={closeMobileMenu}>
               <span className='span-drop'>About <MdKeyboardArrowDown className='drop-icon'/></span>
             </Link>
             {dropdown && <Dropdown  handleActive={handleActive} value={about} tab={'about'} />}
           </li>
           {/* --about- */}
           <li className={click?'nav-expand-item':'items'}>
-            <Link to='#college' className='nav-links' onClick={()=>closeMobileMenu()}>
+            <Link to='#college' smooth={true} duration={1000} className='nav-links' onClick={closeMobileMenu}>
               College
             </Link>
-            <Link to='#department' className='nav-links' onClick={closeMobileMenu}>
+            <Link to='#department' smooth={true} duration={1000} className='nav-links' onClick={closeMobileMenu}>
               Department
             </Link>
-            <Link to='#conference' className='nav-links' onClick={closeMobileMenu}>
+            <Link to='#conference' smooth={true} duration={1000} className='nav-links' onClick={closeMobileMenu}>
               Conference
             </Link>
           </li>
           {/* -- */}
           <li className={`nav-item ${active==='domain'?'active':''}`}>
-            <Link to='#domain' className='nav-links' onClick={()=>{
+            <Link to='#domain' smooth={true} duration={1000} className='nav-links' onClick={()=>{
               closeMobileMenu()
               handleActive('domain')}}>
               Domain
@@ -130,26 +130,26 @@ function Navbar() {
           onMouseLeave={onMouseLeave2}
           onMouseEnter={onMouseEnter2}
           >
-            <Link to='#team' className='nav-links' onClick={closeMobileMenu}>
+            <Link to='#team' smooth={true} duration={1000} className='nav-links' onClick={closeMobileMenu}>
              <span className="span-drop"> Team<MdKeyboardArrowDown className='drop-icon'/></span>
             </Link>
             {dropdown2 && <Dropdown handleActive={handleActive}  value={teams} tab={'teams'}/>}
           </li>
           {/* --team-- */}
           <li className={click?'nav-expand-item':'items'}>
-            <Link to='#organizing-committee' className='nav-links' onClick={closeMobileMenu}>
+            <Link to='#organizing-committee' smooth={true} duration={1000} className='nav-links' onClick={closeMobileMenu}>
             Organizing committee
             </Link>
-            <Link to='#advisory-committee' className='nav-links' onClick={closeMobileMenu}>
+            <Link to='#advisory-committee' smooth={true} duration={1000} className='nav-links' onClick={closeMobileMenu}>
             Advisory committee
             </Link>
-            <Link to='#technical-committee' className='nav-links' onClick={closeMobileMenu}>
+            <Link to='#technical-committee' smooth={true} duration={1000} className='nav-links' onClick={closeMobileMenu}>
               Conference
             </Link>
           </li>
           {/* -- */}
           <li className={`nav-item ${active==='speakers'?'active':''}`}>
-            <Link to='#speakers' className='nav-links' onClick={()=>{
+            <Link to='#speakers' smooth={true} duration={1000} className='nav-links' onClick={()=>{
               closeMobileMenu()
               handleActive('speakers')}}>
               Speakers
@@ -159,26 +159,26 @@ function Navbar() {
              onMouseLeave={onMouseLeave3}
              onMouseEnter={onMouseEnter3}
           >
-            <Link to='#for-authors' className='nav-links' onClick={closeMobileMenu}>
+            <Link to='#for-authors' smooth={true} duration={1000} className='nav-links' onClick={closeMobileMenu}>
               <span className="span-drop">For-authors<MdKeyboardArrowDown className='drop-icon'/></span>
             </Link>
             {dropdown3 && <Dropdown handleActive={handleActive} value={authors} tab={'authors'}/>}
           </li>
           {/* -authors- */}
           <li className={click?'nav-expand-item':'items'}>
-          <Link to='#call-for-papers' className='nav-links' onClick={closeMobileMenu}>
+          <Link to='#call-for-papers' smooth={true} duration={1000} className='nav-links' onClick={closeMobileMenu}>
           Call for papers
             </Link>
-            <Link to='#submission-guidelines' className='nav-links' onClick={closeMobileMenu}>
+            <Link to='#submission-guidelines' smooth={true} duration={1000} className='nav-links' onClick={closeMobileMenu}>
             Submission guidelines
             </Link>
-            <Link to='#schedule' className='nav-links' onClick={closeMobileMenu}>
+            <Link to='#schedule' smooth={true} duration={1000} className='nav-links' onClick={closeMobileMenu}>
             Schedule
             </Link>
           </li>
           {/* -- */}
           <li className={`nav-item ${active==='important-date'?'active':''}`}>
-            <Link to='#important-date' className='nav-links' onClick={()=>{
+            <Link to='#important-date' smooth={true} duration={1000} className='nav-links' onClick={()=>{
               closeMobileMenu()
               handleActive('important-date')}}>
               Important date
@@ -187,6 +187,7 @@ function Navbar() {
           <li>
             <Link
               to='/sign-up'
+              smooth={true} duration={1000}
               className='nav-links-mobile'
               onClick={closeMobileMenu}
             >
