@@ -10,12 +10,16 @@ import Speakers from './components/speakers'
 import Register from './components/register'
 import Contact from './components/contact'
 import Footer from './components/footer'
+import Top from './components/top'
+import {Fade} from 'react-reveal'
+
 function App() {
 
   return (
     <>
       <Header/>
-      <College />
+        <College />
+      
       <Department />
       <Conference />
       <Organizing />
@@ -25,6 +29,7 @@ function App() {
       <Register />
       <Contact />
       <Footer />
+      <Top />
 
     </>
   )

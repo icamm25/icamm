@@ -1,15 +1,16 @@
 import './css/organizing.css'
 import organizing from '../json/organizing.json'
+import {Fade} from 'react-reveal'
 
 export default function Organizing(){
     return(
-        <div className='black-bg'>
+        <div className='black-bg' id='#organizing-committee'>
             <h2 className='organizing-title'> The Organizing Commitee</h2>
 
         <div className='organizing-container'>
 
         {organizing.map((entity, index) => (
-
+          <Fade bottom duration={1000} delay={50}>
           <div key={index} className='entity'>
 
             <div className='circle'>
@@ -24,6 +25,7 @@ export default function Organizing(){
             <p className='college'>{entity.college}</p>
 
           </div>
+          </Fade>
 
         ))}
       </div>
