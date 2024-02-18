@@ -1,11 +1,14 @@
 import './css/contact.css'
+import {Fade, fade} from 'react-reveal'
 
 export default function Contact(){
     return(
-        <div className='blue-bg'>
-
+        
+        <div className='blue-bg' id='#contact'>
+            
             <h2 className='contact-title'>Contact</h2>
             <div className='contact-container'>
+            <Fade bottom duration={1000} delay={50}>
                 <div className='entity'>
                     <div className='circle'>
                         <div className='circle-inner'>
@@ -23,9 +26,11 @@ export default function Contact(){
                     <p className='contact-phone2'>+91 XXXXX XXXXX</p>
 
                 </div>
+                </Fade>
             </div>
 
         </div>
+        
         
     )
 }

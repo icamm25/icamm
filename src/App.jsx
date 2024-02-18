@@ -1,4 +1,5 @@
 import './App.css'
+import Header from './components/header/header'
 import College from './components/college'
 import Department from './components/department'
 import Conference from './components/conference'
@@ -10,12 +11,16 @@ import Speakers from './components/speakers'
 import Register from './components/register'
 import Contact from './components/contact'
 import Footer from './components/footer'
+import Top from './components/top'
+import {Fade} from 'react-reveal'
+
 function App() {
 
   return (
     <>
-
-      <College />
+      <Header/>
+        <College />
+      
       <Department />
       <Conference />
       <Domains />
@@ -26,6 +31,7 @@ function App() {
       <Register />
       <Contact />
       <Footer />
+      <Top />
 
     </>
   )

@@ -3,7 +3,7 @@ import {Fade, fade} from 'react-reveal'
 
 export default function Department(){
     return(
-        <div className='department-container'>
+        <div className='department-container' id='#department'>
             <div className='department-inner'>
                 <div className='department-black'>
                     
