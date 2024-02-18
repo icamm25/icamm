@@ -19,10 +19,18 @@ function App() {
   return (
     <>
       <Header/>
+      <Fade bottom duration={1000} delay={100}>
         <College />
+      </Fade>
+        
+      <Fade bottom duration={1000} delay={100}>
+        <Department />
+      </Fade>
       
-      <Department />
-      <Conference />
+      <Fade bottom duration={1000} delay={100}>
+        <Conference />
+      </Fade>
+      
       <Domains />
       <Organizing />
       <Advisory />
