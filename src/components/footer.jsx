@@ -5,6 +5,12 @@ export default function Footer(){
         <div className='footer-container'>
             <div className='footer1'>
                 <h1>ICAMM'25</h1>
+                <p>&copy; PSG College of Technology</p>
+                <br/>
+
+                <center><div className='team'>
+                    View Team
+                </div></center>
             </div>
 
             <div className='footer2'>

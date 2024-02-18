@@ -68,3 +68,51 @@
     background-color: white;
     overflow:hidden;
 }
+
+
+@media screen and (min-width:768px) and (max-width:992px){
+    .circle{
+        height:250px;
+        width:250px;
+    }
+
+    .circle-inner{
+        height: 220px;
+        width:220px;
+    }
+
+    .entity p{
+        font-size: 20px;
+    }
+
+    .speakers-title{
+        font-size:36px;
+    }
+ 
+}
+
+@media(max-width:768px){
+
+    .circle{
+        height:250px;
+        width:250px;
+    }
+
+    .circle-inner{
+        height: 220px;
+        width:220px;
+    }
+
+    .entity p{
+        font-size: 20px;
+    }
+
+    .speakers-title{
+        font-size:30px;
+    }
+
+    .speakers-container{
+        flex-direction: column;
+        align-items: center;
+    }
+}

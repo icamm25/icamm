@@ -60,3 +60,41 @@
     color:black;
 }
 
+@media screen and (min-width:768px) and (max-width:1000px){
+    .register-inner{
+        width:600px;
+        height: 150px;
+    }
+
+    .register-text{
+        font-size: 30px;
+    }
+
+    .text-inner{
+        font-size: 30px;
+    }
+}
+
+@media(max-width:768px){
+    .register-inner{
+        width:300px;
+        height:100px;
+    }
+
+    .register-container{
+        height: 200px;
+    }
+
+    .register-text{
+        font-size: 16px;
+    }
+
+    .text-inner{
+        font-size: 16px;
+    }
+
+    .symbol{
+        font-size:16px;
+    }
+}
+
