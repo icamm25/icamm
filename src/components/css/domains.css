@@ -1,4 +1,4 @@
-.white-bg{
+.white-bgs{
     height: 100svh;
     width:100%;
     display: grid;
@@ -105,7 +105,7 @@
         margin-bottom: 100px;
     }
 
-    .white-bg{
+    .white-bgs{
         height: 200svh;
     }
 }

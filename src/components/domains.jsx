@@ -3,7 +3,7 @@ import './css/domains.css'
 
 export default function Domains(){
     return(
-        <div className='white-bg'>
+        <div className='white-bgs' id='#domain'>
             <div className='domain-container'>
                 <div className='head-domain'>Domains</div>
 
