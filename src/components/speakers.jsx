@@ -1,20 +1,20 @@
-import './css/organizing.css'
-import organizing from '../json/organizing.json'
+import './css/speakers.css'
+import speakers from '../json/speakers.json'
 
-export default function Organizing(){
+export default function Speakers(){
     return(
         <div className='black-bg'>
-            <h2 className='organizing-title'> The Organizing Commitee</h2>
+            <h2 className='speakers-title'> Speakers</h2>
 
-        <div className='organizing-container'>
+        <div className='speakers-container'>
 
-        {organizing.map((entity, index) => (
+        {speakers.map((entity, index) => (
 
           <div key={index} className='entity'>
 
             <div className='circle'>
                 <div className='circle-inner'>
-                    <img src={entity.image} alt="organizer-image" className='organizer-image'/>
+                    <img src={entity.image} alt="speaker-image" className='speaker-image'/>
                 </div>
             </div>
 
