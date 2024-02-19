@@ -8,6 +8,7 @@ import { MdKeyboardArrowDown } from "react-icons/md";
 import {about,teams,authors} from "./menuitems.js"
 import "./navbar.css"
 import "./homepage.css"
+
 const scrollToSection=(elementRef)=>{
     window.scrollTo({
       top:elementRef.current.offsetTop,
@@ -83,7 +84,7 @@ function Navbar() {
             <div className="navbar">
             <Link to='#home' className='nav-logo' smooth={true} duration={1000} onClick={()=>scrollToSection(home)}>
               <div className='span-logo'>
-              <img className='logo-image' src="src\assets\images\logo.png" alt="" />
+              <img className='logo-image' src="/logo.png" alt="" />
               </div>
             </Link>
         <div className="menu-icons" onClick={handleClick} >
@@ -198,7 +199,7 @@ function Navbar() {
         <Button/>
         </div>
         <div className="overlay"></div>
-        <video  className='psg-video'  src="src\assets\video\PSGVideo.mp4" autoPlay loop muted></video>
+        <video  className='psg-video'  src="/PSGVideo.mp4" autoPlay loop muted></video>
         <div className="content">
             <div className="section_top">
                 <h2 className='h_conference'>Fourth International Conference</h2>
@@ -208,7 +209,7 @@ function Navbar() {
             </div>
             <div className="section_bottom">
                 <div className="h-left">
-                    <img src="src\assets\images\psg-logo.jpg" alt="" style={{width:"130px",height:"150px"}}/>
+                    <img src="/psg-logo.jpg" alt="" style={{width:"130px",height:"150px"}}/>
                 </div>
                 <div className="h-right">
                     <p className='h_organizer'>Organized by</p>
