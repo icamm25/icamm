@@ -1,0 +1,150 @@
+.registration_page{
+    height: 200svh;
+    width:100%;
+    margin-bottom:80px;
+    /* padding-bottom:70px ; */
+    background-color:#EEF6FB;
+}
+.reg_container{
+    width:70%;
+    margin:0 auto;
+}
+.registration_fees{
+    display: flex;
+    flex-direction: column;
+}
+.pay_title{
+    font-family: var(--text1);
+    text-align: center;
+    font-size: 2.5rem;
+    padding: 0.7em;
+    margin: 0;
+}
+.pay_fees{
+    font-family: var(--text1);
+    font-size: 2rem;
+
+}
+.pay_detail{
+    font-family: var(--text1);
+    font-size: 2rem;
+
+}
+.r_head{
+    display: grid;
+    grid-template-columns: 0.7fr 2fr 2fr 2fr;
+    grid-template-rows:90px;
+    column-gap: 10px;
+}
+.reg_title{
+    font-family: var(--text1);
+    font-size:clamp(10px,20px,25px);
+    margin: 0;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.r_box{
+    border:none;
+    position: relative;
+}
+.r_box:nth-child(2n){
+    background-color: var(--bg4);
+    color: black;
+}
+.r_box:nth-child(2n+1){
+    background-color: var(--bg3);
+    color: #fff;
+}
+.r_symbol_box{
+    position: absolute;
+    width:100px;
+    aspect-ratio: 1/1;
+    border:1px solid #ffffffb9;
+    box-shadow: rgba(0, 0, 0, 0.10) 15px 15px 20px 0px inset;
+    left: 50%;
+    top:50%;
+    transform:translate(-50%,0);
+    background-color: #fff;
+    border-radius: 25%;
+}
+.r_grid-container {
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: 0.7fr 2fr 2fr 2fr;
+    grid-template-rows:repeat(5,60px);
+    grid-gap: 20px; /* Gap between grid items */
+  }
+
+.r_grid-item {
+    background-color:#fff;
+    padding: 20px;
+    text-align: center;
+  }
+.r_payment_head{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 90px;
+    column-gap: 10px;
+}
+.r_head_symbol_box{
+    position: absolute;
+    width:200px;
+    aspect-ratio: 1/0.5;
+    border:1px solid #ffffffb9;
+    box-shadow: rgba(0, 0, 0, 0.10) 15px 15px 20px 0px inset;
+    left: 50%;
+    top:50%;
+    transform:translate(-50%,0);
+    background-color: #fff;
+    border-radius: 20px;
+}
+.r_payment_grid_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows:repeat(6,60px);
+    row-gap: 4px;
+    column-gap:10px ;
+    margin-top: 80px;
+}
+.r_payment_grid_item{
+    background-color:#fff;
+    padding: 20px;
+    text-align: center;
+}
+  @media screen and (max-width: 1150px) {
+    .r_symbol_box{
+        display: none;
+    }
+    .r_head_symbol_box{
+        display: none;
+    }
+    .r_box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .reg_title{
+        font-family: var(--text1);
+        font-size: 20px;
+        margin: 0;
+        margin-top: 5px;
+    }
+    .pay_title{
+        font-family: var(--text1);
+        text-align: center;
+        font-size: 2rem;
+        padding: 0.7em;
+        margin: 0;
+    }
+    .pay_fees{
+        font-family: var(--text1);
+        font-size: 1.5rem;
+    
+    }
+    .pay_detail{
+        font-family: var(--text1);
+        font-size: 1.5rem;
+    
+    }
+  }
