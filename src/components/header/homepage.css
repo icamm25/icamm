@@ -100,3 +100,7 @@
     color: #fff;
 
 }
+.h-right{
+    display: flex;
+    flex-direction: column;
+}
