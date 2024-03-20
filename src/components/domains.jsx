@@ -11,26 +11,26 @@ export default function Domains(){
                 <div className='domain-content1'>
                     <div className='domain-bt'>
                         <div className='box-domain'></div>
-                        <p>Domain 1</p>
+                        <p>Cryptography and <br/> Network  Security</p>
                     </div>
                     <div className='domain-bt'>
                         <div className='box-domain'></div>
-                        <p>Domain 2</p>
+                        <p>Graph theory and <br /> Combinatorics</p>
                     </div>
                     <div className='domain-bt'>
                         <div className='box-domain'></div>
-                        <p>Domain 3</p>
+                        <p>Mathematical Analysis</p>
                     </div>
                     
                 </div>
                 <div className='domain-content2'>
                     <div className='domain-bt'>
                         <div className='box-domain'></div>
-                        <p>Domain 4</p>
+                        <p>Optimization Techniques<br/> and Stochastic Models</p>
                     </div>
                     <div className='domain-bt'>
                         <div className='box-domain'></div>
-                        <p>Domain 5</p>
+                        <p>Soft Computing <br/> and Computational Mathematics</p>
                     </div>
                     
                     

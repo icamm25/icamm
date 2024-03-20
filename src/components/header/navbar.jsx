@@ -206,6 +206,7 @@ function Navbar() {
             </Link>
           </li>
         </ul>
+<<<<<<< HEAD
         <Button />
       </div>
       <div className="overlay"></div>
@@ -271,6 +272,31 @@ function Navbar() {
             <p className='h_place'>Coimbatore-641004,Tamilnadu,India</p>
           </motion.div>
           .
+=======
+        <Button/>
+        </div>
+        <div className="overlay"></div>
+        <video  className='psg-video'  src="/PSGVideo.mp4" autoPlay loop muted></video>
+        <div className="content">
+            <div className="section_top">
+                <h2 className='h_conference'>Sixth International Conference on</h2>
+                <h1 className='h_topic'>APPLIED MATHEMATICAL MODELS</h1>
+                <h1 className='h_name'>(ICAMM 2025)</h1>
+                <h3 className='h_month'>January 08 - 10 , 2025</h3>
+            </div>
+            <div className="section_bottom">
+                <div className="h-left">
+                    <img src="/psg-logo.jpg" alt="" style={{width:"130px",height:"150px"}}/>
+                </div>
+                <div className="h-right">
+                    <p className='h_organizer'>Organized by</p>
+                    <p className='h_department'>Department of Mathematics</p>
+                    <h2 className='h_college'>PSG COLLEGE OF TECHNOLOGY</h2>
+                    <p className='h_place'>Coimbatore - 641004, Tamilnadu, India</p>
+                </div>
+                .
+            </div>
+>>>>>>> dea78f9148d2ebd41adceaefe2c1f73c7d711aa4
         </div>
       </div>
 
