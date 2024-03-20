@@ -202,10 +202,10 @@ function Navbar() {
         <video  className='psg-video'  src="/PSGVideo.mp4" autoPlay loop muted></video>
         <div className="content">
             <div className="section_top">
-                <h2 className='h_conference'>Fourth International Conference</h2>
-                <h1 className='h_topic'>APPLIED MATHEMATICAL MODEL</h1>
+                <h2 className='h_conference'>Sixth International Conference on</h2>
+                <h1 className='h_topic'>APPLIED MATHEMATICAL MODELS</h1>
                 <h1 className='h_name'>(ICAMM 2025)</h1>
-                <h3 className='h_month'>Month 00-00-2025</h3>
+                <h3 className='h_month'>January 08 - 10 , 2025</h3>
             </div>
             <div className="section_bottom">
                 <div className="h-left">
@@ -215,7 +215,7 @@ function Navbar() {
                     <p className='h_organizer'>Organized by</p>
                     <p className='h_department'>Department of Mathematics</p>
                     <h2 className='h_college'>PSG COLLEGE OF TECHNOLOGY</h2>
-                    <p className='h_place'>Coimbatore-641004,Tamilnadu,India</p>
+                    <p className='h_place'>Coimbatore - 641004, Tamilnadu, India</p>
                 </div>
                 .
             </div>

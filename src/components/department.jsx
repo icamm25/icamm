@@ -22,7 +22,7 @@ export default function Department(){
                 </div>
 
                 <div className='department-desc'>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil eligendi provident consequatur, magnam, recusandae deleniti fugit odit asperiores corrupti obcaecati aperiam veniam repellat possimus amet facere sequi tempore dolorum at. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae, neque. Aliquam aliquid error corporis pariatur commodi, ut quidem totam sapiente sequi aperiam dignissimos alias voluptate deserunt nemo fugit illo reprehenderit?Lorem ipsum dolor sit amet consectetur adipi</p>
+                        <p>Since 1951, the Department of Mathematics as PSG College of Technology continues to impart mathematical skill and analytical thinking to all Engineering and scirnce graduates of this institution.  Over the past 7 decades with the highest standards in both research and teaching, it has seen a phenomenal growth and success.  The department is equipped with 27 dedicated faculties as facilitators with a strong research base.  So far, the department has produced 39 doctorates in the field of Applied and Pure mathematics.  Several outreach events, including conferences, workshops seminars, and symposiums on a wide range of topics, are organized by the department.  The department also trains engineering students in strong mathematical background to enhance and apply their skills to find solutions to their field specific problems.</p>
                 </div>
 
                 
