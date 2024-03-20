@@ -85,9 +85,12 @@ function Navbar() {
   return (
     <div className='h_header'>
       <div className="navbar">
-        <Link to='#home' className='nav-logo' smooth={true} duration={1000} onClick={() => scrollToSection(home)}>
+        <Link to='#home' className='nav-logo'   onClick={() => {
+              closeMobileMenu()
+              handleActive('home')
+            }}>
           <div className='span-logo'>
-            <img className='logo-image' src="src\assets\images\logo.png" alt="" />
+            <img className='logo-image' src="/logo.png" alt="" />
           </div>
         </Link>
         <div className="menu-icons" onClick={handleClick} >
@@ -95,7 +98,7 @@ function Navbar() {
         </div>
         <ul className={click ? 'nav-menu active' : 'nav-menu'}>
           <li className={`nav-item ${active === 'home' ? 'active' : ''}`}>
-            <Link to='#home' smooth={true} duration={1000} className='nav-links' onClick={() => {
+            <Link to='#home'   className='nav-links' onClick={() => {
               closeMobileMenu()
               handleActive('home')
             }}>
@@ -113,19 +116,19 @@ function Navbar() {
           </li>
           {/* --about- */}
           <li className={click ? 'nav-expand-item' : 'items'}>
-            <Link to='#college' smooth={true} duration={1000} className='nav-links' onClick={closeMobileMenu}>
+            <Link to='#college'  className='nav-links' onClick={closeMobileMenu}>
               College
             </Link>
-            <Link to='#department' smooth={true} duration={1000} className='nav-links' onClick={closeMobileMenu}>
+            <Link to='#department'  className='nav-links' onClick={closeMobileMenu}>
               Department
             </Link>
-            <Link to='#conference' smooth={true} duration={1000} className='nav-links' onClick={closeMobileMenu}>
+            <Link to='#conference'  className='nav-links' onClick={closeMobileMenu}>
               Conference
             </Link>
           </li>
           {/* -- */}
           <li className={`nav-item ${active === 'domain' ? 'active' : ''}`}>
-            <Link to='#domain' smooth={true} duration={1000} className='nav-links' onClick={() => {
+            <Link to='#domain'  className='nav-links' onClick={() => {
               closeMobileMenu()
               handleActive('domain')
             }}>
@@ -143,19 +146,19 @@ function Navbar() {
           </li>
           {/* --team-- */}
           <li className={click ? 'nav-expand-item' : 'items'}>
-            <Link to='#organizing-committee' smooth={true} duration={1000} className='nav-links' onClick={closeMobileMenu}>
+            <Link to='#organizing-committee'  className='nav-links' onClick={closeMobileMenu}>
               Organizing committee
             </Link>
-            <Link to='#advisory-committee' smooth={true} duration={1000} className='nav-links' onClick={closeMobileMenu}>
+            <Link to='#advisory-committee'  className='nav-links' onClick={closeMobileMenu}>
               Advisory committee
             </Link>
-            <Link to='#technical-committee' smooth={true} duration={1000} className='nav-links' onClick={closeMobileMenu}>
+            <Link to='#technical-committee'  className='nav-links' onClick={closeMobileMenu}>
               Conference
             </Link>
           </li>
           {/* -- */}
           <li className={`nav-item ${active === 'speakers' ? 'active' : ''}`}>
-            <Link to='#speakers' smooth={true} duration={1000} className='nav-links' onClick={() => {
+            <Link to='#speakers'  className='nav-links' onClick={() => {
               closeMobileMenu()
               handleActive('speakers')
             }}>
@@ -166,26 +169,26 @@ function Navbar() {
             onMouseLeave={onMouseLeave3}
             onMouseEnter={onMouseEnter3}
           >
-            <Link to='#for-authors' smooth={true} duration={1000} className='nav-links' onClick={closeMobileMenu}>
+            <Link to='#for-authors'  className='nav-links' onClick={closeMobileMenu}>
               <span className="span-drop">For-authors<MdKeyboardArrowDown className='drop-icon' /></span>
             </Link>
             {dropdown3 && <Dropdown handleActive={handleActive} value={authors} tab={'authors'} />}
           </li>
           {/* -authors- */}
           <li className={click ? 'nav-expand-item' : 'items'}>
-            <Link to='#call-for-papers' smooth={true} duration={1000} className='nav-links' onClick={closeMobileMenu}>
+            <Link to='#call-for-papers'  className='nav-links' onClick={closeMobileMenu}>
               Call for papers
             </Link>
-            <Link to='#submission-guidelines' smooth={true} duration={1000} className='nav-links' onClick={closeMobileMenu}>
+            <Link to='#submission-guidelines' className='nav-links' onClick={closeMobileMenu}>
               Submission guidelines
             </Link>
-            <Link to='#schedule' smooth={true} duration={1000} className='nav-links' onClick={closeMobileMenu}>
+            <Link to='#schedule'  className='nav-links' onClick={closeMobileMenu}>
               Schedule
             </Link>
           </li>
           {/* -- */}
           <li className={`nav-item ${active === 'important-date' ? 'active' : ''}`}>
-            <Link to='#important-date' smooth={true} duration={1000} className='nav-links' onClick={() => {
+            <Link to='#important-date'  className='nav-links' onClick={() => {
               closeMobileMenu()
               handleActive('important-date')
             }}>
@@ -206,7 +209,7 @@ function Navbar() {
         <Button />
       </div>
       <div className="overlay"></div>
-      <video className='psg-video' src="src\assets\videos\PSGVideo.mp4" autoPlay loop muted></video>
+      <video className='psg-video' src="/PSGVideo.mp4" autoPlay loop muted></video>
       <div className="content">
         <motion.div className="section_top"
           ref={ref}
@@ -246,7 +249,7 @@ function Navbar() {
             }}
            
           >
-            <img src="src\assets\images\psg-logo.jpg" alt="" style={{ width: "130px", height: "150px" }} />
+            <img src="/psg-logo.jpg" alt="" style={{ width: "130px", height: "150px" }} />
           </motion.div>
           <motion.div className="h-right"
           ref={ref}
