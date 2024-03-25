@@ -218,6 +218,7 @@ function Navbar() {
             flexDirection: "column",
             y: -200
           }}
+          
           whileInView={{
             y: 0
 
@@ -256,7 +257,7 @@ function Navbar() {
           initial={{
             display: "flex",
             flexDirection:"column",
-            x: 200
+            x: 400
           }}
           transition={{
             duration:1

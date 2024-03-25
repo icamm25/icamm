@@ -1,5 +1,5 @@
 .registration_page{
-    height: 200svh;
+    height: 230svh;
     width:100%;
     margin-bottom:80px;
     /* padding-bottom:70px ; */
@@ -72,7 +72,7 @@
     margin-top: 80px;
     display: grid;
     grid-template-columns: 0.7fr 2fr 2fr 2fr;
-    grid-template-rows:repeat(5,60px);
+    grid-template-rows:repeat(4,60px);
     grid-gap: 20px; /* Gap between grid items */
   }
 
@@ -80,6 +80,9 @@
     background-color:#fff;
     padding: 20px;
     text-align: center;
+    font-family: var(--text1);
+    font-size:15px;
+    font-weight: 500;
   }
 .r_payment_head{
     display: grid;
@@ -102,7 +105,7 @@
 .r_payment_grid_container{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows:repeat(6,60px);
+    grid-template-rows:350px;
     row-gap: 4px;
     column-gap:10px ;
     margin-top: 80px;
@@ -111,6 +114,59 @@
     background-color:#fff;
     padding: 20px;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg4);
+    
+}
+.r_payment_grid_item p{
+    font-family: var(--text1);
+    font-size: 15px;
+    font-weight: 500;
+    border:1px solid var(--bg3);
+    padding:1em 1em;
+    border-radius: 10px;
+    background-color: var(--bg3);
+    color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+
+}
+
+.r_payment_grid_item_2{
+    background-color:#fff;
+    padding: 10px;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--bg3);
+    
+}
+.r_payment_grid_item_2 p{
+    font-family: var(--text1);
+    font-size: 15px;
+    font-weight: 500;
+    border:1px solid var(--bg4);
+    padding:0.3em 1em;
+    border-radius: 10px;
+    background-color: var(--bg4);
+    /* opacity: 0.5; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+.p_det{
+    font-family: var(--text1);
+    font-size: 15px;
+    font-weight: 500;
+}
+.post_det{
+    font-family: var(--text1);
+    font-size: 15px;
+    font-weight: 500;
+    margin:35px 0;
 }
   @media screen and (max-width: 1150px) {
     .r_symbol_box{

@@ -104,3 +104,87 @@
     display: flex;
     flex-direction: column;
 }
+@media screen and (max-width:1153px){
+    .section_top{
+        transition: none;
+        transform: translateY(0) !important;
+    }
+    .h-left{
+       transition: none;
+       transform: translateX(0) !important;
+    }
+    .h-right{
+        transition: none;
+        transform: translateX(0) !important;
+    }
+}
+@media screen and (max-width:907px){
+    .section_top{
+        transition: none;
+        transform: translateY(0) !important;
+    }
+    .h_organizer{
+        text-align:center;
+        color: var(--bg4);
+        font-size: 1.5rem;
+        font-weight:700;
+        margin: 0;
+    }
+    .h_department{
+        font-family: var(--text1);
+        text-align: center;
+        font-size: 1.6rem;
+        font-weight: 500;
+        color: #fff;
+        margin: 0;
+    }
+    .h_college{
+        text-align: center;
+        font-family: var(--text1);
+        font-size: 1.8rem;
+        font-weight:700;
+        margin: 0;
+        color: #fff;
+    }
+    .h_place{
+        text-align: center;
+        font-family: var(--text1);
+        font-size: 1.4rem;
+        margin: 0;
+        color: #fff;
+    
+    }
+    .h_conference{
+        font-family: var(--text1);
+        font-size: 1.3rem;
+        text-transform: uppercase;
+        margin: 0;
+        color: var(--bg4);
+        text-align: center;
+    }
+    .h_topic{
+        font-family: var(--text1);
+        text-align: center;
+        margin: 0;
+        color:#fff;
+        font-size:2rem;
+        font-weight: 600;
+    
+    }
+    .h_name{
+        font-family:var(--text1);
+        color: var(--bg4);
+        margin: 0;
+        font-size:2rem;
+        text-align: center;
+    }
+    .h_month{
+        text-align: center;
+        color: #fff;
+        margin: 0;
+        font-size: 1.1rem;
+    }
+}
+/* @media screen and (max-width:821px){
+
+} */

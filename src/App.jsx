@@ -14,7 +14,7 @@ import Contact from './components/contact'
 import Footer from './components/footer'
 import Top from './components/top'
 import {Fade} from 'react-reveal'
-
+import Dates from './components/dates'
 function App() {
 
   return (
@@ -39,7 +39,8 @@ function App() {
       <Speakers />
       <Register />
       <Registration/>
-      <Contact />
+      <Dates/>
+      <Contact />    
       <Footer />
       <Top />
 

@@ -113,7 +113,17 @@
     display: none;
     list-style: none;
   }
-  @media screen and (max-width: 1150px) {
+  @media screen and (max-width:1365px){
+    .navbar{
+      /* color: white;
+      text-decoration: none;
+      padding: 0.5rem 0.3rem; */
+      font-family: var(--text1);
+      font-size: 15px;
+    }
+
+  }
+  @media screen and (max-width: 1152px) {
     .NavbarItems {
       position: relative;
     }

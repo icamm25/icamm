@@ -1,0 +1,61 @@
+.date-con{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.dateItemBox{
+    display: flex;
+    background-color: var(--bg);
+    border: 1px solid rgb(233, 220, 220);
+    height:80px;
+    border-radius: 50px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    /* width:100%; */
+    padding:0 0.3em 0 0.3em;
+    margin-bottom: 35px;
+    position: relative;
+}
+.d:nth-child(2n-1)>.d_circle{
+    background-color: var(--bg4);
+}
+.d:nth-child(2n+1)>.d_circle{
+    background-color: var(--bg3);
+}
+
+.d_image{
+    position: absolute;
+    right:-110px;
+    top:-15px;
+
+}
+.d:nth-child(2)>.d_image{
+    position: absolute;
+    right:-120px;
+    top:-15px;
+}
+.d_circle{
+    flex:1;
+    border-radius: 50%;
+    background-color: var(--bg4);
+    align-self: center;
+    justify-self:center;
+    height: 90%;
+}
+.d_info{
+    text-align: center;
+    flex:4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--text1);
+    font-size: 17px;
+    font-weight:500;
+}
+.d_da{
+    margin:0;
+}
+.dc_info{
+    margin:0;
+}
