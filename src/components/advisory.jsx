@@ -12,8 +12,7 @@ export default function Advisory(){
 
     {advisory.map((entity, index) => (
       <Fade bottom duration={1000} delay={100}>
-
-      
+        
       <div key={index} className='advisory-entity'>
 
         <div className='advisory-box-1'>

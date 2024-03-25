@@ -60,7 +60,8 @@
     display: grid;
     place-content: center;
     padding:20px;
-    font-size: 22px;
+    font-size: 18px;
+    line-height: 25px;
     color:white;
     font-family: var(--text2);
     letter-spacing: 2%;

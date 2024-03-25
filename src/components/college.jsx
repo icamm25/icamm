@@ -22,8 +22,18 @@ export default function College(){
                        
                 <div className='college-desc'>
                     <div className='college-text-box'>
-                        <p>PSG College of Technology, an ISO 9001:2015 certified institution is one of the foremost institutions founded by the PSG & Sons & Charities Trust-1926. The College was established in the year 1951.
-                        The College today has a student strength of about 8500 with 15 Engineering and Technology departments. More than 600 research scholars are pursuing research programmes leading to Ph.D. / MS / M.Tech degrees.  Several advanced centres are set up with financial support from MHRD, DST and other agencies.</p>
+                        <p>PSG College of Technology, established in the year 1951 by PSG &amp; Sons’ Charities, is an ISO
+                            9001 - 2015 certified autonomous college affiliated to Anna University, Chennai. The college
+                            offers 21 undergraduate programmes and 24 postgraduate programmes including Engineering
+                            and Technology, Computer Applications, Management Sciences, Basic and Applied Sciences.
+                            The college today has student strength of about 8515 with 15 Engineering and Technology
+                            departments. More than 600 research scholars are pursuing research programmes leading to
+                            Ph.D/MS/MTech degrees and the college is a recognized QIP centre for postgraduate and Ph.D
+                            programmes. Several advanced centres are set up with financial support from MHRD, DST and
+                            other agencies. PSG College of Technology was ranked second under Colleges/Institutes (Govt.
+                            &amp; Govt. Aided) (Technical) by ATAL Ranking of Institutions on Innovation Achievements
+                            (ARIIA), Ministry of Education, Government of India in the year 2021 and the best industry
+                            linked institution by AICTE-CII in the year 2012. </p>
                     </div>
                 </div>
             </div>

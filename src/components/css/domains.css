@@ -24,7 +24,7 @@
 }
 .domain-content2{
     height:250px;
-    gap:100px;
+    gap:120px;
     display: flex;
     flex-direction: row;
     justify-content: center;

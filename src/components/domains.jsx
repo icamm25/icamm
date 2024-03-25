@@ -19,7 +19,7 @@ export default function Domains(){
                     </div>
                     <div className='domain-bt'>
                         <div className='box-domain'></div>
-                        <p>Mathematical Analysis</p>
+                        <p>Control Theory and <br /> Fractional Calculus</p>
                     </div>
                     
                 </div>
@@ -30,7 +30,12 @@ export default function Domains(){
                     </div>
                     <div className='domain-bt'>
                         <div className='box-domain'></div>
-                        <p>Soft Computing <br/> and Computational Mathematics</p>
+                        <p>Mathematical<br/> Modeling</p>
+                    </div>
+
+                    <div className='domain-bt'>
+                        <div className='box-domain'></div>
+                        <p>Soft Computing <br/> and Computational <br/> Mathematics</p>
                     </div>
                     
                     

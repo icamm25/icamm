@@ -45,7 +45,7 @@
 }
 
 .department-desc{
-    font-size:20px;
+    font-size:18px;
     height: 300px;
     width: 750px;
     transform: translate(80px,400px);
@@ -53,6 +53,7 @@
     font-family: var(--text2);
     padding:10px; 
     letter-spacing: 2%;
+    line-height: 25px;
 }
 
 .department-head{

@@ -13,8 +13,14 @@ export default function Conference(){
                 </div>       
                 <div className='conference-desc'>
                     <div className='conference-text-box'>
-                        <p>PSG conference of Technology, an ISO 9001:2015 certified institution is one of the foremost institutions founded by the PSG & Sons & Charities Trust-1926. The conference was established in the year 1951.
-                        The conference today has a student strength of about 8500 with 15 Engineering and Technology departments. More than 600 research scholars are pursuing research programmes leading to Ph.D. / MS / M.Tech degrees.</p>
+                        <p>The Sixth International Conference on Applied Mathematical Models (ICAMM 2025) will be
+                            held in the Department of Mathematics at PSG College of Technology in Coimbatore from
+                            January 8–10, 2025. The conference aims to stimulate research and make a substantial
+                            contribution to the advancement of computational and mathematical models. This is achieved by
+                            offering a forum for the exchange of novel concepts and discussions of recent advancements in
+                            the subject between scholars, researchers, students, and business professionals. Further, it would
+                            provide a platform for outstanding research articles on mathematics&#39; theoretical foundations and
+                            technological and engineering applications.</p>
                     </div>
                 </div>
 

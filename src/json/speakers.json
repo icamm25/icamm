@@ -1,45 +1,39 @@
 [
     {
-      "name":"Professor name",
+      "name":"Prof. Hugo Leiva,",
       "image": "https://th.bing.com/th/id/OIP.iOJ3d7QnoKo7X0GrBQf97gHaHa?rs=1&pid=ImgDetMain",
-      "position": "Position 1",
-      "department": "Department A",
-      "college": "College X"
+      "college": "Yachay Tech-University of the Andes",
+      "country":"Venezuela"
     },
     {
-      "name":"Professor name",
+      "name":"Prof. Rein Nobel,",
       "image": "https://th.bing.com/th/id/OIP.iOJ3d7QnoKo7X0GrBQf97gHaHa?rs=1&pid=ImgDetMain",
-      "position": "Position 2",
-      "department": "Department B",
-      "college": "College Y"
+      "college": "Vrije University,",
+      "country": "Amstredam, Netherlands"
     },
     {
-      "name":"Professor name",
-      "image": "https://th.bing.com/th/id/OIP.iOJ3d7QnoKo7X0GrBQf97gHaHa?rs=1&pid=ImgDetMain",
-      "position": "Position 3",
-      "department": "Department C",
-      "college": "College Z"
+      "name":"Prof.Thabet Abdeljawad,",
+      "image": "./public/thabet.jpeg",
+      "college": "Prince Sultan University,",
+      "country": "Saudi Arabia"
     },
     {
-        "name":"Professor name",
+        "name":"Prof. S. Dharmaraja,",
+        "image": "./public/dharma.jpeg",
+        "college": "Indian Institute of Technology, Delhi,",
+        "country" : "India"
+    },
+    {
+      "name":"Prof. Tanmay Basak,",
+      "image": "./public/tanmay.jpg",
+      "college": "Indian Institute of Technology, Chennai,",
+      "country" : "India"
+    },
+    {
+        "name":"Prof. A.Krishnamoorthy,",
         "image": "https://th.bing.com/th/id/OIP.iOJ3d7QnoKo7X0GrBQf97gHaHa?rs=1&pid=ImgDetMain",
-        "position": "Position 3",
-        "department": "Department C",
-        "college": "College Z"
-    },
-    {
-      "name":"Professor name",
-      "image": "https://th.bing.com/th/id/OIP.iOJ3d7QnoKo7X0GrBQf97gHaHa?rs=1&pid=ImgDetMain",
-      "position": "Position 3",
-      "department": "Department C",
-      "college": "College Z"
-    },
-    {
-        "name":"Professor name",
-        "image": "https://th.bing.com/th/id/OIP.iOJ3d7QnoKo7X0GrBQf97gHaHa?rs=1&pid=ImgDetMain",
-        "position": "Position 3",
-        "department": "Department C",
-        "college": "College Z"
+        "college": "Cochin University, Calicut,",
+        "country":"India"
     }
   ]
   

@@ -1,31 +1,35 @@
 [
     {
-      "name":"Professor name",
-      "image": "https://th.bing.com/th/id/OIP.iOJ3d7QnoKo7X0GrBQf97gHaHa?rs=1&pid=ImgDetMain",
-      "position": "Position 1",
-      "department": "Department A",
-      "college": "College X"
+      "name":"Chief Patron",
+      "image": "./public/trustee.jpg",
+      "position": "Thiru. L. Gopalakrishnan",
+      "department": "Managing trustee",
+      "college": "PSG & Sons’ Charities Trust",
+      "other":""
     },
     {
-      "name":"Professor name",
+      "name":"Patron",
       "image": "https://th.bing.com/th/id/OIP.iOJ3d7QnoKo7X0GrBQf97gHaHa?rs=1&pid=ImgDetMain",
-      "position": "Position 2",
-      "department": "Department B",
-      "college": "College Y"
+      "position": "Dr. R. Rudramoorthy",
+      "department": "Principal",
+      "college": "PSG College of Technology",
+      "other":""
     },
     {
-      "name":"Professor name",
-      "image": "https://th.bing.com/th/id/OIP.iOJ3d7QnoKo7X0GrBQf97gHaHa?rs=1&pid=ImgDetMain",
-      "position": "Position 3",
-      "department": "Department C",
-      "college": "College Z"
+      "name":"Convener",
+      "image": "./public/porkodi.jpeg",
+      "position": "Dr. C. Porkodi,",
+      "department": "Professor & Head",
+      "college": "Department of Mathematics",
+      "other":"PSG College of Technology"
     },
     {
-        "name":"Professor name",
-        "image": "https://th.bing.com/th/id/OIP.iOJ3d7QnoKo7X0GrBQf97gHaHa?rs=1&pid=ImgDetMain",
-        "position": "Position 3",
-        "department": "Department C",
-        "college": "College Z"
+        "name":"Organizing Secretary",
+        "image": "./public/muthu.jpeg",
+        "position": "Dr. P. Muthukumar",
+        "department": "Assistant Professor (SG)",
+        "college": "Department of Mathematics",
+        "other":"PSG College of Technology"
     }
   ]
   

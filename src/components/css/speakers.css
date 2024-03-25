@@ -1,7 +1,7 @@
 .black-bg{
     background-color: var(--bg2);
     padding-top:50px;
-    margin-bottom: 80px;
+    margin-bottom: 30px;
 }
 
 .speakers-title{
@@ -42,7 +42,8 @@
 }
 
 .speaker-image{
-    max-width: 100%;
+    width: 100%;
+    height: 100%;
 }
 
 .circle{
