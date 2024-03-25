@@ -180,8 +180,8 @@ function Navbar() {
             <Link to='#call-for-papers'  className='nav-links' onClick={closeMobileMenu}>
               Call for papers
             </Link>
-            <Link to='#submission-guidelines' className='nav-links' onClick={closeMobileMenu}>
-              Submission guidelines
+            <Link to='#payment-details' className='nav-links' onClick={closeMobileMenu}>
+              Payment details
             </Link>
             <Link to='#schedule'  className='nav-links' onClick={closeMobileMenu}>
               Schedule
@@ -229,7 +229,7 @@ function Navbar() {
           }}
         >
           <h1 className='h_topic'>APPLIED MATHEMATICAL MODEL</h1> 
-          <h2 className='h_conference'>Fourth International Conference</h2>
+          <h2 className='h_conference'>Sixth International Conference</h2>
           <h1 className='h_name'>(ICAMM 2025)</h1>
           <h3 className='h_month'>Month 00-00-2025</h3>
           

@@ -6,7 +6,7 @@ function Registration() {
     const items = Array.from({ length: 8 });
     const items2 = Array.from({ length: 2 })
     return (
-        <div className='registration_page'>
+        <div id='#payment-details' className='registration_page'>
             <div className="reg_container">
                 <h1 className='pay_title'>Registration</h1>
                 <p className="p_det">It is mandatory that at least one author of each accepted paper register and present the paper in the technical sessions. All accepted papers will be considered for presentation and publication only after the payment of registration fee.</p>

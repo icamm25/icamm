@@ -1,12 +1,12 @@
 .date-section{
     height:150svh;
-    background-color: var(--bg);
-    margin-bottom: 80px;
+    /* background-color: var(--bg); */
+    /* margin-bottom: 80px; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
 }
 .important-date{
     width:30%;

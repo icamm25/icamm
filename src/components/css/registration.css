@@ -1,7 +1,7 @@
 .registration_page{
     height: 230svh;
     width:100%;
-    margin-bottom:80px;
+    /* margin-bottom:80px; */
     /* padding-bottom:70px ; */
     background-color:#EEF6FB;
 }
@@ -159,14 +159,24 @@
 }
 .p_det{
     font-family: var(--text1);
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 500;
+    border-radius: 10px;
+    background-color:#EEF6FB;
+    padding: 10px;
+    /* opacity: 0.5; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .post_det{
     font-family: var(--text1);
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 500;
     margin:35px 0;
+    border-radius: 10px;
+    background-color:#EEF6FB;
+    padding: 10px;
+    /* opacity: 0.5; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
   @media screen and (max-width: 1150px) {
     .r_symbol_box{

@@ -7,7 +7,7 @@ export default function Dates(){
                 <h1>Important date</h1>
                 <Dates_item/>
             </div>
-            <div className="schedule">
+            <div  id='#schedule' className="schedule">
                 <h1>Schedule</h1>
                 <div className="sc_box">
                     <div className="sc_circle">

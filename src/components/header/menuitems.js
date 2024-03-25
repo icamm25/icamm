@@ -41,8 +41,8 @@ export  const authors = [
         cName: 'dropdown-link'
     },
     {
-        title: 'Submission guidelines',
-        path: '#submission-guidelines',
+        title: 'Payment details',
+        path: '#payment-details',
         cName: 'dropdown-link'
     },
     {

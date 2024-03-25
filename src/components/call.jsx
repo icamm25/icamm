@@ -2,7 +2,7 @@ import './css/call.css'
 
 export default function Call(){
     return(
-        <div className='call-container'>
+        <div id='#call-for-papers' className='call-container'>
             <h2>
             CALL FOR PAPERS
             </h2>
