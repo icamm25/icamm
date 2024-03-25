@@ -23,6 +23,7 @@ export default function Organizing(){
             <p className='position'>{entity.position}</p>
             <p className='department'>{entity.department}</p>
             <p className='college'>{entity.college}</p>
+            <p className='college'>{entity.other}</p>
 
           </div>
           </Fade>

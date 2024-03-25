@@ -12,18 +12,19 @@ export default function Contact(){
                 <div className='entity'>
                     <div className='circle'>
                         <div className='circle-inner'>
-                            <img src='https://th.bing.com/th/id/OIP.iOJ3d7QnoKo7X0GrBQf97gHaHa?rs=1&pid=ImgDetMain' alt="organizer-image" className='organizer-image'/>
+                            <img src='./public/muthu.jpeg' alt="organizer-image" className='organizer-image'/>
                         </div>
                     </div>
 
 
-                    <p className='contact-name'>Professor name</p>
-                    <p className='contact-position'>Position</p>
-                    <p className='contact-department'>Department</p>
-                    <p className='contact-college'>College</p>
-                    <p className='contact-email'>email@gmail.com</p>
-                    <p className='contact-phone1'>+91 XXXXX XXXXX</p>
-                    <p className='contact-phone2'>+91 XXXXX XXXXX</p>
+                    <p className='contact-name'>Dr.P. Muthukumar</p>
+                    <p className='contact-position'>Organizing Secretary – ICAMM 2025</p>
+                    <p className='contact-department'>Department of Mathematics,</p>
+                    <p className='contact-college'>PSG College of Technology,</p>
+                    <p className='contact-college'>Coimbatore- 641004.</p>
+                    <p className='contact-email'>icamm2025@psgtech.ac.in,</p>
+                    <p className='contact-phone1'>+91 94439 63302,</p>
+                    <p className='contact-phone2'>+91 422 2572177.</p>
 
                 </div>
                 </Fade>

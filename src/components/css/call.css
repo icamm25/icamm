@@ -1,0 +1,17 @@
+.call-container{
+    padding:30px;
+}
+
+.call-container h2{
+    font-family: 'Montserrat',sans-serif;
+    font-size:32px;
+}
+
+.call-container p{
+    font-family: 'open sans',sans-serif;
+    font-size:22px;
+}
+
+.call-container>p>a{
+    color:blue;
+}

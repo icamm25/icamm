@@ -9,12 +9,13 @@ import { about, teams, authors } from "./menuitems.js"
 import "./navbar.css"
 import "./homepage.css"
 import { motion, useInView } from 'framer-motion';
-const scrollToSection = (elementRef) => {
-  window.scrollTo({
-    top: elementRef.current.offsetTop,
-    behavior: 'smooth',
-  })
-}
+
+// const scrollToSection = (elementRef) => {
+//   window.scrollTo({
+//     top: elementRef.current.offsetTop,
+//     behavior: 'smooth',
+//   })
+// }
 function Navbar() {
   const home = useRef(null);
   const ref = useRef(null)
@@ -109,7 +110,7 @@ function Navbar() {
             onMouseLeave={onMouseLeave}
             onMouseEnter={onMouseEnter}
           >
-            <Link to='#about' smooth={true} duration={1000} className='nav-links' onClick={closeMobileMenu}>
+            <Link to='#about' className='nav-links' onClick={closeMobileMenu}>
               <span className='span-drop'>About <MdKeyboardArrowDown className='drop-icon' /></span>
             </Link>
             {dropdown && <Dropdown handleActive={handleActive} value={about} tab={'about'} />}
@@ -139,7 +140,7 @@ function Navbar() {
             onMouseLeave={onMouseLeave2}
             onMouseEnter={onMouseEnter2}
           >
-            <Link to='#team' smooth={true} duration={1000} className='nav-links' onClick={closeMobileMenu}>
+            <Link to='#team' className='nav-links' onClick={closeMobileMenu}>
               <span className="span-drop"> Team<MdKeyboardArrowDown className='drop-icon' /></span>
             </Link>
             {dropdown2 && <Dropdown handleActive={handleActive} value={teams} tab={'teams'} />}
@@ -198,7 +199,7 @@ function Navbar() {
           <li>
             <Link
               to='/sign-up'
-              smooth={true} duration={1000}
+              
               className='nav-links-mobile'
               onClick={closeMobileMenu}
             >

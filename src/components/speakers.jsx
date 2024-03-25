@@ -20,9 +20,9 @@ export default function Speakers(){
             </div>
 
             <p className='name'>{entity.name}</p>
-            <p className='position'>{entity.position}</p>
-            <p className='department'>{entity.department}</p>
             <p className='college'>{entity.college}</p>
+            <p className='position'>{entity.country}</p>
+            
 
           </div>
         </Fade>

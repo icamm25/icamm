@@ -58,7 +58,7 @@
     display: grid;
     place-content: center;
     padding:20px;
-    font-size: 22px;
+    font-size: 17px;
     color:white;
     font-family: var(--text2);
     letter-spacing: 2%;
