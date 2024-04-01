@@ -24,7 +24,7 @@ export default function Contact(){
                     <p className='contact-college'>Coimbatore- 641004.</p>
                     <p className='contact-email'>icamm2025@psgtech.ac.in,</p>
                     <p className='contact-phone1'>+91 94439 63302,</p>
-                    <p className='contact-phone2'>+91 422 2572177.</p>
+                    <p className='contact-phone2'>+91 422 2572177 extn:4443</p>
 
                 </div>
                 </Fade>

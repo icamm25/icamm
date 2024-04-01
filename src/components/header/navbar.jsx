@@ -251,7 +251,7 @@ function Navbar() {
             }}
            
           >
-            <img src="/psg-logo.jpg" alt="" style={{ width: "130px", height: "150px" }} />
+            <img src="/psg-logo.jpg" alt=""  className='psg-logo'/>
           </motion.div>
           <motion.div className="h-right"
           ref={ref}
@@ -270,9 +270,9 @@ function Navbar() {
             <p className='h_organizer'>Organized by</p>
             <p className='h_department'>Department of Mathematics</p>
             <h2 className='h_college'>PSG COLLEGE OF TECHNOLOGY</h2>
-            <p className='h_place'>Coimbatore-641004,Tamilnadu,India</p>
+            <p className='h_place'>Coimbatore-641004,Tamilnadu,India.</p>
           </motion.div>
-          .
+          
         </div>
       </div>
 

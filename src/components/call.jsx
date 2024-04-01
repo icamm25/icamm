@@ -11,7 +11,7 @@ export default function Call(){
             prescribed format available in the ICAMM 2025 website. Please ensure that the content
             submitted has not been part of any other conference proceedings or journal papers. All papers
             would be subject to rigorous review. All accepted papers, after the receipt of author registration
-            will appear in full-length in the conference proceedings (soft copy). For all communications and
+            will appear in full-length in the conference proceedings (soft copy). For all communications and for
             paper submissions use the e-mail address <a href='mailto:icamm2025@psgtech.ac.in'>icamm2025@psgtech.ac.in </a>. 
             </p>
 

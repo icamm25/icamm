@@ -113,6 +113,10 @@
     display: none;
     list-style: none;
   }
+  .psg-logo{
+    width:130px;
+    height:150px;
+  }
   @media screen and (max-width:1365px){
     .navbar{
       /* color: white;
@@ -237,4 +241,3 @@
       color: white;
     }
   }
-  

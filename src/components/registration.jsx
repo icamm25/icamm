@@ -35,11 +35,11 @@ function Registration() {
                         ))} */}
                         <div className="r_grid-item">1</div>
                         <div className="r_grid-item">Academicians</div>
-                        <div className="r_grid-item">3500</div>
+                        <div className="r_grid-item">2500</div>
                         <div className="r_grid-item">250 USD</div>
                         <div className="r_grid-item">2</div>
                         <div className="r_grid-item">Industry participants</div>
-                        <div className="r_grid-item">4000</div>
+                        <div className="r_grid-item">3000</div>
                         <div className="r_grid-item">250 USD</div>
                         <div className="r_grid-item">3</div>
                         <div className="r_grid-item">Full time research scholars</div>
@@ -47,7 +47,7 @@ function Registration() {
                         <div className="r_grid-item">250 USD</div>
                         <div className="r_grid-item">4</div>
                         <div className="r_grid-item">Accompanying guests/Spouse</div>
-                        <div className="r_grid-item">1500</div>
+                        <div className="r_grid-item">2000</div>
                         <div className="r_grid-item">75 USD</div>
                     </div>
                     <p className='post_det'>Registration fee includes conference kit, a copy of proceedings (Soft Copy), food and banquet. However, accompanying guests/spouse cannot avail the conference kit and the copy of the proceedings. For full time research scholars, a bonafide certificate duly signed by the research supervisor /head of the institution/department shall be attached along with the registration form to avail of the stipulated registration fee.</p>
