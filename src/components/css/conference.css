@@ -40,8 +40,9 @@
 }
 
 .conference-pic img{
-    height: 450px;
-    width: 700px;
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
 }
 
 .conference-desc{
@@ -89,6 +90,14 @@
     font-size: 40px;
     font-family: var(--text1);
     letter-spacing: 2%;
+}
+
+
+@media screen and (min-width:768px) and (max-width:1350px){
+
+    .conference-pic{
+       width: 550px; 
+    }
 }
 
 @media screen and (max-width:1152px){
@@ -147,5 +156,9 @@
 
     .conference-inner{
         width: 99%;
+    }
+
+    .conference-header-btn{
+        font-size: 12px;
     }
 }

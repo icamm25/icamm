@@ -6,12 +6,14 @@
     margin-bottom:80px;
 }
 
+
 .department-inner{
     display: flex;
     position:relative;
     height:100svh;
     width:100svw;
 }
+
 
 .department-black{
     position:absolute;
@@ -20,6 +22,7 @@
     width:35%;
     background-color: var(--bg2);
 }
+
 
 .department-sandal{
     position:absolute;
@@ -30,19 +33,20 @@
     background-color: var(--bg4);
 }
 
+
 .department-image{
     height: 450px;
     width: 650px;
     transform: translate(50px,120px);
     box-shadow: 0px 0px 5px 0px black;
-    
 }
+
 
 .department-image img{
     height: 450px;
     width: 650px;
-    
 }
+
 
 .department-desc{
     font-size:18px;
@@ -56,11 +60,13 @@
     line-height: 25px;
 }
 
+
 .department-head{
     position: absolute;
     right:300px;
     top:50px;
 }
+
 
 .department-header-btn{
     text-align: center;
@@ -73,11 +79,13 @@
     font-family: var(--text2);
 }
 
+
 .department-title{
     font-size: 34px;
     font-family: var(--text1);
     letter-spacing: 2%;
 }
+
 
 .department-desc-mobile{
     display: none;
@@ -89,15 +97,35 @@
     padding:10px; 
     letter-spacing: 2%;
     line-height: 25px;
-    
 }
 
-@media screen and (max-width:1152px){
-    
+
+@media screen and (min-width:768px) and (max-width:1500px){
+    .department-image{
+        height:350px;
+        width:350px;
+    }
+
+    .department-image img{
+        height: 350px;
+        width: 350px;
+    }
+
+    .department-head{
+        position: absolute;
+        right:300px;
+        top:50px;
+        margin-left:30px;
+    }
+
+}
+
+
+@media screen and (min-width:768px) and (max-width:1152px){    
     .department-image,.department-sandal,.department-black{
         display:none;
     }
-    
+
     .department-desc{
         transform: none;
         width: 80%;
@@ -131,18 +159,61 @@
     }
 
     .department-desc{
-        display: none;
-        
+        display: none; 
     }
 
     .department-container{
         margin-bottom:0px;
     }
 
-    
 }
 
+
 @media screen and (max-width:768px){
+    .department-image,.department-sandal,.department-black{
+        display:none;
+    }
+
+    .department-desc{
+        transform: none;
+        width: 80%;
+        margin-left:10%;
+    }
+
+    .department-inner{
+        display: block;
+        height: auto;
+    }
+
+    .department-head{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        top:0;
+        right: 0;
+    }
+
+    .department-desc-mobile{
+        display:flex;
+        flex-direction: column;
+        width: 80%;
+        margin-left:10%;
+        background-color: var(--bg4);
+        height: auto;
+        padding:20px;
+        border-radius: 25px;
+    }
+
+    .department-desc{
+        display: none; 
+    }
+
+    .department-container{
+        margin-bottom:0px;
+    }
+
     .department-desc-mobile{
         font-size: 12px;
         width: 95%;
@@ -162,5 +233,4 @@
         height: auto;
     }
 
-    
 }

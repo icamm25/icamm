@@ -39,7 +39,7 @@ function App() {
       <Organizing />
       <center><Table /></center>
       <Advisory />
-      <Technical />
+      {/* <Technical /> */}
       <Speakers />
       <Call />
       <Register />

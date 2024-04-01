@@ -9,7 +9,7 @@ export default function Contact(){
             <h2 className='contact-title'>Contact</h2>
             <div className='contact-container'>
             <Fade bottom duration={1000} delay={50}>
-                <div className='entity'>
+                <div className='entity' id='contact-entity'>
                     <div className='circle'>
                         <div className='circle-inner'>
                             <img src='./public/muthu.jpeg' alt="organizer-image" className='organizer-image'/>
