@@ -15,8 +15,6 @@ export default function Contact(){
                             <img src='./public/muthu.jpeg' alt="organizer-image" className='organizer-image'/>
                         </div>
                     </div>
-
-
                     <p className='contact-name'>Dr.P. Muthukumar</p>
                     <p className='contact-position'>Organizing Secretary – ICAMM 2025</p>
                     <p className='contact-department'>Department of Mathematics,</p>

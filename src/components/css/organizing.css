@@ -91,10 +91,17 @@
         font-size: 36px;
     }
 
+    .entity{
+        width: 500px;
+    }
     
 }
 
 @media(max-width:768px){
+
+    .entity{
+        width: 500px;
+    }
 
     .circle{
         height:250px;
@@ -107,7 +114,11 @@
     }
 
     .entity p{
-        font-size: 20px;
+        font-size: 15px;
+    }
+
+    .entity{
+        width: 300px;
     }
 
     .organizing-title{

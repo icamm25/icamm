@@ -31,9 +31,15 @@
     },
     {
         "name":"Prof. A.Krishnamoorthy,",
-        "image": "https://th.bing.com/th/id/OIP.iOJ3d7QnoKo7X0GrBQf97gHaHa?rs=1&pid=ImgDetMain",
+        "image": "./public/krishna.png",
         "college": "Cochin University, Calicut,",
         "country":"India"
+    },
+    {
+      "name":"Dr. Kavikumar Jacob,",
+        "image": "./public/kavi.jpg",
+        "college": "University Tun Hussein Onn,",
+        "country":"Malaysia"
     }
   ]
   

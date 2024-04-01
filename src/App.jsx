@@ -15,6 +15,7 @@ import Footer from './components/footer'
 import Top from './components/top'
 import {Fade} from 'react-reveal'
 import Call from './components/call'
+import Table from './components/table'
 
 import Dates from './components/dates'
 function App() {
@@ -36,6 +37,7 @@ function App() {
       
       <Domains />
       <Organizing />
+      <center><Table /></center>
       <Advisory />
       <Technical />
       <Speakers />
