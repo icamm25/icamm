@@ -59,3 +59,80 @@
 .dc_info{
     margin:0;
 }
+@media screen and (max-width:1065px){
+    .d_info{
+        text-align: center;
+        flex:4;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: var(--text1);
+        font-size: 15px;
+        font-weight:500;
+    }
+    .d_image{
+        position: absolute;
+        right:-83px;
+        top:-13px;
+        height: 125px;
+    
+    }
+    .d:nth-child(2)>.d_image{
+        position: absolute;
+        right:-89px;
+        top:-10px;
+    }
+}
+@media screen and (max-width:745px){
+    .d_info{
+        text-align: center;
+        flex:4;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: var(--text1);
+        font-size: 13px;
+        font-weight:500;
+    }
+}
+@media screen and (max-width:590px){
+    .d_info{
+        text-align: center;
+        flex:4;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: var(--text1);
+        font-size: 13px;
+        font-weight:500;
+    }
+}
+@media screen and (max-width:482px){
+    .dateItemBox{
+        display: flex;
+        background-color: var(--bg);
+        border: 1px solid rgb(233, 220, 220);
+        height:60px;
+        border-radius: 50px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        /* width:100%; */
+        padding:0 0.3em 0 0.3em;
+        margin-bottom: 35px;
+        position: relative;
+    }
+    .d_image{
+        position: absolute;
+        right:-74px;
+        top:-10px;
+        height: 110px;
+    
+    }
+    .d:nth-child(2)>.d_image{
+        position: absolute;
+        right:-90px;
+        top:-13px;
+    }
+}

@@ -123,7 +123,11 @@
         transition: none;
         transform: translateY(0) !important;
     }
-    .h_organizer{
+    .psg-logo{
+        width:100px;
+        height: 120px;
+    }
+    /* .h_organizer{
         text-align:center;
         color: var(--bg4);
         font-size: 1.5rem;
@@ -183,8 +187,309 @@
         color: #fff;
         margin: 0;
         font-size: 1.1rem;
+    } */
+    .section_bottom{
+        display: flex;
+        flex-direction: column-reverse;
+        row-gap: 1.5rem;
+        margin-right: 0;
+    
     }
 }
-/* @media screen and (max-width:821px){
-
-} */
+@media screen and (max-width:781px){
+  .h_organizer{
+        text-align:center;
+        color: var(--bg4);
+        font-size: 1.5rem;
+        font-weight:700;
+        margin: 0;
+    }
+    .h_department{
+        font-family: var(--text1);
+        text-align: center;
+        font-size: 1.6rem;
+        font-weight: 500;
+        color: #fff;
+        margin: 0;
+    }
+    .h_college{
+        text-align: center;
+        font-family: var(--text1);
+        font-size: 1.8rem;
+        font-weight:700;
+        margin: 0;
+        color: #fff;
+    }
+    .h_place{
+        text-align: center;
+        font-family: var(--text1);
+        font-size: 1.4rem;
+        margin: 0;
+        color: #fff;
+    
+    }
+    .h_conference{
+        font-family: var(--text1);
+        font-size: 1.3rem;
+        text-transform: uppercase;
+        margin: 0;
+        color: var(--bg4);
+        text-align: center;
+    }
+    .h_topic{
+        font-family: var(--text1);
+        text-align: center;
+        margin: 0;
+        color:#fff;
+        font-size:2rem;
+        font-weight: 600;
+    
+    }
+    .h_name{
+        font-family:var(--text1);
+        color: var(--bg4);
+        margin: 0;
+        font-size:2rem;
+        text-align: center;
+    }
+    .h_month{
+        text-align: center;
+        color: #fff;
+        margin: 0;
+        font-size: 1.1rem;
+    }    
+    .section_bottom{
+        display: flex;
+        flex-direction: column-reverse;
+        row-gap: 1.5rem;
+        margin-right: 0;
+    }
+    .psg-logo{
+        width:80px;
+        height: 100px;
+    }
+}
+@media screen and (max-width:583px){
+    .h_organizer{
+          text-align:center;
+          color: var(--bg4);
+          font-size: 1.2rem;
+          font-weight:700;
+          margin: 0;
+      }
+      .h_department{
+          font-family: var(--text1);
+          text-align: center;
+          font-size: 1.3rem;
+          font-weight: 500;
+          color: #fff;
+          margin: 0;
+      }
+      .h_college{
+          text-align: center;
+          font-family: var(--text1);
+          font-size: 1.5rem;
+          font-weight:700;
+          margin: 0;
+          color: #fff;
+      }
+      .h_place{
+          text-align: center;
+          font-family: var(--text1);
+          font-size: 1.1rem;
+          margin: 0;
+          color: #fff;
+      
+      }
+      .h_conference{
+          font-family: var(--text1);
+          font-size: 1rem;
+          text-transform: uppercase;
+          margin: 0;
+          color: var(--bg4);
+          text-align: center;
+      }
+      .h_topic{
+          font-family: var(--text1);
+          text-align: center;
+          margin: 0;
+          color:#fff;
+          font-size:1.7rem;
+          font-weight: 600;
+      
+      }
+      .h_name{
+          font-family:var(--text1);
+          color: var(--bg4);
+          margin: 0;
+          font-size:1.7rem;
+          text-align: center;
+      }
+      .h_month{
+          text-align: center;
+          color: #fff;
+          margin: 0;
+          font-size: 0.8rem;
+      }    
+      .section_bottom{
+          display: flex;
+          flex-direction: column-reverse;
+          row-gap: 1.2rem;
+          margin-right: 0;
+      }
+  }
+  @media screen and (max-width:490px){
+    .h_organizer{
+          text-align:center;
+          color: var(--bg4);
+          font-size: 1rem;
+          font-weight:700;
+          margin: 0;
+      }
+      .h_department{
+          font-family: var(--text1);
+          text-align: center;
+          font-size: 1.1rem;
+          font-weight: 500;
+          color: #fff;
+          margin: 0;
+      }
+      .h_college{
+          text-align: center;
+          font-family: var(--text1);
+          font-size: 1.1rem;
+          font-weight:700;
+          margin: 0;
+          color: #fff;
+      }
+      .h_place{
+          text-align: center;
+          font-family: var(--text1);
+          font-size: 1rem;
+          margin: 0;
+          color: #fff;
+      
+      }
+      .h_conference{
+          font-family: var(--text1);
+          font-size: 0.9rem;
+          text-transform: uppercase;
+          margin: 0;
+          color: var(--bg4);
+          text-align: center;
+      }
+      .h_topic{
+          font-family: var(--text1);
+          text-align: center;
+          margin: 0;
+          color:#fff;
+          font-size:1.2rem;
+          font-weight: 600;
+      
+      }
+      .h_name{
+          font-family:var(--text1);
+          color: var(--bg4);
+          margin: 0;
+          font-size:1.5rem;
+          text-align: center;
+      }
+      .h_month{
+          text-align: center;
+          color: #fff;
+          margin: 0;
+          font-size: 0.6rem;
+      }    
+      .section_bottom{
+          display: flex;
+          flex-direction: column-reverse;
+          row-gap: 1rem;
+          margin-right: 0;
+      }
+      .psg-logo{
+        height: 80px;
+        width: 60px;
+      }
+  }
+  @media screen and (max-width:347px){
+    .logo-image{
+        color:#E8C1A2;
+        margin-left: 20px;
+        cursor: pointer;
+        text-decoration: none;
+        position: relative;
+        left:-34px;
+        width: 142px;
+      }
+    .h_organizer{
+          text-align:center;
+          color: var(--bg4);
+          font-size: 0.8rem;
+          font-weight:700;
+          margin: 0;
+      }
+      .h_department{
+          font-family: var(--text1);
+          text-align: center;
+          font-size: 0.9rem;
+          font-weight: 500;
+          color: #fff;
+          margin: 0;
+      }
+      .h_college{
+          text-align: center;
+          font-family: var(--text1);
+          font-size: 0.9rem;
+          font-weight:700;
+          margin: 0;
+          color: #fff;
+      }
+      .h_place{
+          text-align: center;
+          font-family: var(--text1);
+          font-size: 0.9rem;
+          margin: 0;
+          color: #fff;
+      
+      }
+      .h_conference{
+          font-family: var(--text1);
+          font-size: 0.7rem;
+          text-transform: uppercase;
+          margin: 0;
+          color: var(--bg4);
+          text-align: center;
+      }
+      .h_topic{
+          font-family: var(--text1);
+          text-align: center;
+          margin: 0;
+          color:#fff;
+          font-size:1rem;
+          font-weight: 600;
+      
+      }
+      .h_name{
+          font-family:var(--text1);
+          color: var(--bg4);
+          margin: 0;
+          font-size:1.2rem;
+          text-align: center;
+      }
+      .h_month{
+          text-align: center;
+          color: #fff;
+          margin: 0;
+          font-size: 0.5rem;
+      }    
+      .section_bottom{
+          display: flex;
+          flex-direction: column-reverse;
+          row-gap: 1rem;
+          margin-right: 0;
+      }
+      .psg-logo{
+        height: 70px;
+        width: 50px;
+      }
+  }
