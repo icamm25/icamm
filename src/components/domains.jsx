@@ -11,19 +11,19 @@ export default function Domains(){
                 <div className='domain-content1'>
                     <div className='domain-bt'>
                         <div className='box-domain'>
-                            <img src="./public/crypto.png" alt="" height={80} width={80}/>
+                            <img src="/crypto.png" alt="" height={80} width={80}/>
                         </div>
                         <p>Cryptography and <br/> Network  Security</p>
                     </div>
                     <div className='domain-bt'>
                         <div className='box-domain'>
-                        <img src="./public/graph.png" alt="" height={80} width={80}/>
+                        <img src="/graph.png" alt="" height={80} width={80}/>
                         </div>
                         <p>Graph theory and <br /> Combinatorics</p>
                     </div>
                     <div className='domain-bt'>
                         <div className='box-domain'>
-                        <img src="./public/calc.png" alt="" height={80} width={80}/>
+                        <img src="/calc.png" alt="" height={80} width={80}/>
                         </div>
                         <p>Control Theory and <br /> Fractional Calculus</p>
                     </div>
@@ -32,20 +32,20 @@ export default function Domains(){
                 <div className='domain-content2'>
                     <div className='domain-bt'>
                         <div className='box-domain'>
-                        <img src="./public/opt.png" alt="" height={80} width={80}/>
+                        <img src="/opt.png" alt="" height={80} width={80}/>
                         </div>
                         <p>Optimization Techniques<br/> and Stochastic Models</p>
                     </div>
                     <div className='domain-bt'>
                         <div className='box-domain'>
-                        <img src="./public/model.png" alt="" height={80} width={80}/>
+                        <img src="/model.png" alt="" height={80} width={80}/>
                         </div>
                         <p>Mathematical<br/> Modeling</p>
                     </div>
 
                     <div className='domain-bt'>
                         <div className='box-domain'>
-                        <img src="./public/comp.png" alt="" height={80} width={80}/>
+                        <img src="/comp.png" alt="" height={80} width={80}/>
                         </div>
                         <p>Soft Computing <br/> and Computational <br/> Mathematics</p>
                     </div>

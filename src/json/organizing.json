@@ -1,7 +1,7 @@
 [
     {
       "name":"Chief Patron",
-      "image": "./public/trustee.jpg",
+      "image": "/trustee.jpg",
       "position": "Thiru. L. Gopalakrishnan",
       "department": "Managing Trustee",
       "college": "PSG & Sons’ Charities Trust",
@@ -9,7 +9,7 @@
     },
     {
       "name":"Patron",
-      "image": "./public/princi.jpg",
+      "image": "/princi.jpg",
       "position": "Dr. K. Prakasan",
       "department": "Principal",
       "college": "PSG College of Technology",
@@ -17,7 +17,7 @@
     },
     {
       "name":"Convener",
-      "image": "./public/porkodi.jpeg",
+      "image": "/porkodi.jpeg",
       "position": "Dr. C. Porkodi,",
       "department": "Professor & Head",
       "college": "Department of Mathematics",
@@ -25,7 +25,7 @@
     },
     {
         "name":"Organizing Secretary",
-        "image": "./public/muthu.jpeg",
+        "image": "/muthu.jpeg",
         "position": "Dr. P. Muthukumar",
         "department": "Assistant Professor (SG)",
         "college": "Department of Mathematics",
