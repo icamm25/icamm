@@ -18,7 +18,7 @@ export default function Department(){
 
 
                 <div className='department-image'>
-                        <img src="https://th.bing.com/th/id/OIP.3VrMLILfxcBWtyQ6UDhg0AHaEo?rs=1&pid=ImgDetMain" alt='department'></img>
+                        <img src="/math.jpg" alt='department'></img>
                 </div>
 
                 <div className='department-desc'>

@@ -67,6 +67,9 @@
     transform:translate(-50%,0);
     background-color: #fff;
     border-radius: 25%;
+    display: grid;
+    place-content: center;
+    
 }
 .r_grid-container {
     margin-top: 80px;
@@ -101,6 +104,9 @@
     transform:translate(-50%,0);
     background-color: #fff;
     border-radius: 20px;
+    display: grid;
+    place-content: center;
+    
 }
 .r_payment_grid_container{
     display: grid;

@@ -1,13 +1,13 @@
 [
     {
       "name":"Prof. Hugo Leiva,",
-      "image": "https://th.bing.com/th/id/OIP.iOJ3d7QnoKo7X0GrBQf97gHaHa?rs=1&pid=ImgDetMain",
+      "image": "/hugo.png",
       "college": "Yachay Tech-University of the Andes",
       "country":"Venezuela"
     },
     {
       "name":"Prof. Rein Nobel,",
-      "image": "https://th.bing.com/th/id/OIP.iOJ3d7QnoKo7X0GrBQf97gHaHa?rs=1&pid=ImgDetMain",
+      "image": "/rein.jpg",
       "college": "Vrije University,",
       "country": "Amstredam, Netherlands"
     },

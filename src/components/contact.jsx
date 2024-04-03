@@ -12,7 +12,7 @@ export default function Contact(){
                 <div className='entity' id='contact-entity'>
                     <div className='circle'>
                         <div className='circle-inner'>
-                            <img src='/muthu.jpeg' alt="organizer-image" className='organizer-image'/>
+                            <img src='/muthu.jpg' alt="organizer-image" className='organizer-image'/>
                         </div>
                     </div>
                     <p className='contact-name'>Dr.P. Muthukumar</p>

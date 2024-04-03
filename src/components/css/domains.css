@@ -116,6 +116,11 @@
         flex-direction: column;
         gap: 10px;
         height: auto;
+        margin-left: 30px;
+    }
+
+    .domain-content2 p{
+        margin-left:-30px;
     }
     .box-domain{
         margin: 0;
