@@ -126,6 +126,9 @@ function Navbar() {
             <Link to='#conference'  className='nav-links' onClick={closeMobileMenu}>
               Conference
             </Link>
+            <Link to='#past_conference'  className='nav-links' onClick={closeMobileMenu}>
+              Past Conference
+            </Link>
           </li>
           {/* -- */}
           <li className={`nav-item ${active === 'domain' ? 'active' : ''}`}>
@@ -228,10 +231,11 @@ function Navbar() {
             duration:1
           }}
         >
-          <h1 className='h_topic'>APPLIED MATHEMATICAL MODEL</h1> 
+          
           <h2 className='h_conference'>Sixth International Conference</h2>
+          <h1 className='h_topic'>APPLIED MATHEMATICAL MODEL</h1> 
           <h1 className='h_name'>(ICAMM 2025)</h1>
-          <h3 className='h_month'>Month 00-00-2025</h3>
+          <h3 className='h_month'>January 8-10,2025</h3>
           
         </motion.div>
         <div className="section_bottom">
