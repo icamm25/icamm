@@ -40,8 +40,9 @@
 }
 
 .conference-pic img{
-    height: 450px;
-    width: 700px;
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
 }
 
 .conference-desc{
@@ -89,4 +90,75 @@
     font-size: 40px;
     font-family: var(--text1);
     letter-spacing: 2%;
+}
+
+
+@media screen and (min-width:768px) and (max-width:1350px){
+
+    .conference-pic{
+       width: 550px; 
+    }
+}
+
+@media screen and (max-width:1152px){
+    
+    .conference-pic,.conference-l1,.conference-l2{
+        display:none;
+    }
+    
+    .conference-desc{
+        transform: none;
+        width: 80%;
+        height: auto;
+        margin-left:10%;
+        border-radius:25px;
+        height: auto;
+    }
+
+    .conference-text-box{
+        border:none;
+        height: auto;
+        width: 90%;
+        margin-left:5%;
+        
+    }
+
+    .conference-inner{
+        display: block;
+    }
+
+    .conference-head{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        top:0;
+        left: 0;
+    }
+
+    
+}
+
+@media screen and (max-width:768px){
+    .conference-text-box{
+        font-size: 12px;
+    }
+
+    .conference-desc{
+        width: 95%;
+        margin-left:2.5%;
+    }
+
+    .conference-title{
+        font-size:16px;
+    }
+
+    .conference-inner{
+        width: 99%;
+    }
+
+    .conference-header-btn{
+        font-size: 12px;
+    }
 }

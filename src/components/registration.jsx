@@ -18,15 +18,15 @@ function Registration() {
                         </div>
                         <div className="r_box ">
                             <p className='reg_title'>Option</p>
-                            <div className="r_symbol_box"></div>
+                            <div className="r_symbol_box"><img src="./option.svg" alt="" height={50} width={50}/></div>
                         </div>
                         <div className="r_box ">
                             <p className='reg_title'>Indian Delegate</p>
-                            <div className="r_symbol_box"></div>
+                            <div className="r_symbol_box"><img src="./rupee.png" alt="" height={40} width={40}/></div>
                         </div>
                         <div className="r_box">
                             <p className='reg_title'>Foreign Delegate</p>
-                            <div className="r_symbol_box"></div>
+                            <div className="r_symbol_box"><img src="./dollar.svg" alt="" height={60} width={60}/></div>
                         </div>
                     </div>
                     <div className="r_grid-container">
@@ -154,11 +154,11 @@ export default Registration
 {/* <div className="r_payment_head">
                         <div className="r_box r">
                             <p className='reg_title'>Indian Delegate</p>
-                            <div className="r_head_symbol_box"></div>
+                            <div className="r_head_symbol_box"><img src="./rupee.png" alt="" height={40} width={40}/></div>
                         </div>
                         <div className="r_box r_national">
                             <p className='reg_title'>Foreign Delegate</p>
-                            <div className="r_head_symbol_box"></div>
+                            <div className="r_head_symbol_box"><img src="./dollar.svg" alt="" height={60} width={60}/></div>
                         </div>
                     </div>
                     <div className="r_payment_grid_container">

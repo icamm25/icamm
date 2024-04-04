@@ -15,3 +15,13 @@
 .call-container>p>a{
     color:blue;
 }
+
+@media(max-width:768px){
+    .call-container p{
+        font-size: 16px;
+    }
+
+    .call-container h2{
+        font-size: 24px;
+    }
+}

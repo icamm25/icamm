@@ -24,9 +24,9 @@ export default function Advisory(){
         <div className='advisory-details'>
 
         <p className='advisory-name'>{entity.name}</p>
-        <p className='advisory-position'>{entity.position}</p>
-        <p className='advisory-department'>{entity.department}</p>
-        <p className='advisory-college'>{entity.college}</p>
+        <p className='advisory-position'>{entity.college}</p>
+        <p className='advisory-department'>{entity.country}</p>
+        
 
         </div>
 

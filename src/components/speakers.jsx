@@ -11,7 +11,7 @@ export default function Speakers(){
 
         {speakers.map((entity, index) => (
           <Fade bottom duration={1000} delay={50}>
-          <div key={index} className='entity'>
+          <div key={index} id='org' className='entity'>
 
             <div className='circle'>
                 <div className='circle-inner'>

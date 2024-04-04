@@ -10,7 +10,7 @@ export default function College(){
                 <div className='college-l2'></div>
                 
                 <div className='college-pic'>
-                    <img src="https://www.educationworld.in/wp-content/uploads/2013/05/Untitled-design-4-1.jpg" alt="college" />
+                    <img src="clg.jpg" alt="college" />
                 </div>
                 
 

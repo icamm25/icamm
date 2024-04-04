@@ -87,3 +87,79 @@
     font-family: var(--text1);
     letter-spacing: 2%;
 }
+
+@media screen and (max-width:1152px){
+    
+    .college-pic,.college-l1,.college-l2{
+        display:none;
+    }
+    
+    .college-desc{
+        transform: none;
+        width: 80%;
+        margin-left:10%;
+        border-radius: 25px;
+        height: auto;
+    }
+
+    .college-inner{
+        display: block;
+        height: auto;
+    }
+
+    .college-head{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        top:0;
+        right: 0;
+    }
+
+    .college-text-box{
+        border:none;
+        height: auto;
+        width: 90%;
+        margin-left:5%;
+
+    }
+
+    .college-container{
+        height: auto;
+        margin-bottom: 0px;
+    }
+
+    
+}
+
+@media screen and (max-width:768px){
+    .college-desc{
+        width: 95%;
+        margin-left:2.5%;
+    }
+
+    .college-header-btn{
+        font-size: 12px;
+    }
+
+    
+    .college-text-box{
+        font-size: 12px;
+        width: 95%;
+        margin-left:2.5%;
+    }
+
+    .college-title{
+        font-size:16px;
+    }
+
+    .college-inner{
+        width: 99%;
+        
+    }
+
+    .college-container{
+        margin-bottom: 0px;
+    }
+}

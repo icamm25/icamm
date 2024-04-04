@@ -1,0 +1,20 @@
+table {
+    font-size: 18px;
+    width: 50%;
+    border-collapse: collapse;
+    font-family: 'open sans',sans-serif;
+}
+th, td {
+    border:1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+tr:nth-child(even) {
+    background-color: var(--bg4);
+}
+
+@media(max-width:768px){
+    table{
+        font-size: 14px;
+    }
+}

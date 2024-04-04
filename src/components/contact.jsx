@@ -9,14 +9,12 @@ export default function Contact(){
             <h2 className='contact-title'>Contact</h2>
             <div className='contact-container'>
             <Fade bottom duration={1000} delay={50}>
-                <div className='entity'>
+                <div className='entity' id='contact-entity'>
                     <div className='circle'>
                         <div className='circle-inner'>
-                            <img src='./public/muthu.jpeg' alt="organizer-image" className='organizer-image'/>
+                            <img src='/muthu.jpg' alt="organizer-image" className='organizer-image'/>
                         </div>
                     </div>
-
-
                     <p className='contact-name'>Dr.P. Muthukumar</p>
                     <p className='contact-position'>Organizing Secretary – ICAMM 2025</p>
                     <p className='contact-department'>Department of Mathematics,</p>

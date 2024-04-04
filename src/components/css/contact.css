@@ -22,8 +22,6 @@
     font-weight:bold;
 }
 
-
-
 .contact-container{
     background-color: #EEF6FB;
     display: flex;
@@ -36,10 +34,29 @@
     }
 }
 
-@media(max-width:492px){
-    .contact-container p{
-        width:300px;
-        font-size: 16px;
-        text-align: center;
+@media(max-width:768px){
+    
+    .entity{
+        width: 300px;
     }
+
+    .circle{
+        height:250px;
+        width:250px;
+    }
+
+    .circle-inner{
+        height: 220px;
+        width:220px;
+    }
+
+    #contact-entity p{
+        font-size: 12px;
+    }
+
+    #contact-entity{
+        width: 300px;
+    }
+
+    
 }
