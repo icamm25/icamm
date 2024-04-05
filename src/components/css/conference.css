@@ -1,5 +1,5 @@
 .conference-container{
-    height: 100svh;
+    min-height: 100svh;
     display: grid;
     place-content: center;
     margin-bottom:80px;

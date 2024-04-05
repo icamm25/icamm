@@ -59,8 +59,8 @@ const Accordion = ({ items }) => {
   };
 
   return (
-    <div className="accordion">
-        <h1 className='technical-title'>Previous Editions</h1>
+    <div id='#past_conference' className="accordion">
+        <h1 className='technical-title'>Previous Conference</h1>
       {items.map((item, index) => renderContent(item, index))}
     </div>
   );

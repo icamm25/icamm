@@ -2,8 +2,8 @@
     {
       "name":"Prof. Hugo Leiva,",
       "image": "/hugo.png",
-      "college": "Yachay Tech-University of the Andes",
-      "country":"Venezuela"
+      "college": "Yachay Tech-University,",
+      "country":"Ecuador"
     },
     {
       "name":"Prof. Rein Nobel,",
@@ -40,6 +40,18 @@
         "image": "/kavi.jpg",
         "college": "University Tun Hussein Onn,",
         "country":"Malaysia"
+    },
+    {
+      "name":"Prof. Viswanathan Arunachalam,",
+        "image": "/Arunachalam.png",
+        "college": "National University of Colombia,",
+        "country":""
+    },
+    {
+      "name":"Prof. Satyananda Panda,",
+        "image": "/panda.png",
+        "college": "National Institute of Technology,",
+        "country":"India"
     }
   ]
   

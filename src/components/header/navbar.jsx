@@ -126,6 +126,9 @@ function Navbar() {
             <Link to='#conference'  className='nav-links' onClick={closeMobileMenu}>
               Conference
             </Link>
+            <Link to='#past_conference'  className='nav-links' onClick={closeMobileMenu}>
+              Previous Conference
+            </Link>
           </li>
           {/* -- */}
           <li className={`nav-item ${active === 'domain' ? 'active' : ''}`}>
@@ -163,7 +166,7 @@ function Navbar() {
               closeMobileMenu()
               handleActive('speakers')
             }}>
-              Speakers
+              Plenary Speakers
             </Link>
           </li>
           <li className={click ? 'items' : (active === 'authors' ? 'nav-item active' : 'nav-item')}
@@ -193,7 +196,7 @@ function Navbar() {
               closeMobileMenu()
               handleActive('important-date')
             }}>
-              Important date
+              Important Date
             </Link>
           </li>
           <li>
@@ -228,10 +231,11 @@ function Navbar() {
             duration:1
           }}
         >
-          <h1 className='h_topic'>APPLIED MATHEMATICAL MODEL</h1> 
+          
           <h2 className='h_conference'>Sixth International Conference</h2>
+          <h1 className='h_topic'>APPLIED MATHEMATICAL MODEL</h1> 
           <h1 className='h_name'>(ICAMM 2025)</h1>
-          <h3 className='h_month'>Month 00-00-2025</h3>
+          <h3 className='h_month'>January 8-10, 2025</h3>
           
         </motion.div>
         <div className="section_bottom">
@@ -270,7 +274,7 @@ function Navbar() {
             <p className='h_organizer'>Organized by</p>
             <p className='h_department'>Department of Mathematics</p>
             <h2 className='h_college'>PSG COLLEGE OF TECHNOLOGY</h2>
-            <p className='h_place'>Coimbatore-641004,Tamilnadu,India.</p>
+            <p className='h_place'>Coimbatore-641004, Tamilnadu, India.</p>
           </motion.div>
           
         </div>
