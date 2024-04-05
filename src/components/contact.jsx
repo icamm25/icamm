@@ -17,12 +17,12 @@ export default function Contact(){
                     </div>
                     <p className='contact-name'>Dr.P. Muthukumar</p>
                     <p className='contact-position'>Organizing Secretary – ICAMM 2025</p>
-                    <p className='contact-department'>Department of Mathematics,</p>
-                    <p className='contact-college'>PSG College of Technology,</p>
-                    <p className='contact-college'>Coimbatore- 641004.</p>
-                    <p className='contact-email'>icamm2025@psgtech.ac.in,</p>
-                    <p className='contact-phone1'>+91 94439 63302,</p>
-                    <p className='contact-phone2'>+91 422 2572177 extn:4443</p>
+                    <p className='contact-department'>Department of Mathematics</p>
+                    <p className='contact-college'>PSG College of Technology</p>
+                    <p className='contact-college'>Coimbatore- 641004</p>
+                    <p className='contact-email'>Email:icamm2025@psgtech.ac.in</p>
+                    <p className='contact-phone1'><a href="tel:+919443963302">Mobile: +91 94439 63302</a></p>
+                    <p className='contact-phone2'>Phone: +91 422 2572177 - extn:4443</p>
 
                 </div>
                 </Fade>
