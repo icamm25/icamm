@@ -9,9 +9,9 @@ export default function Footer(){
                 <p>&copy; PSG College of Technology</p>
                 <br/>
 
-                <center><div className='team'>
+                {/* <center><div className='team'>
                     View Team
-                </div></center>
+                </div></center> */}
             </div>
 
             <div className='footer2'>
