@@ -1,42 +1,30 @@
 import './css/advisory.css'
-import advisory from '../json/advisory.json'
-import {Fade} from 'react-reveal'
+import {Fade, fade} from 'react-reveal'
 
-export default function Advisory(){
+export default function advisory(){
     return(
-        <div className='white-bg' id='#advisory-committee'>
-
-        <h2 className='advisory-title'> The Advisory Commitee</h2>
-
-    <div className='advisory-container'>
-
-    {advisory.map((entity, index) => (
-      <Fade bottom duration={1000} delay={100}>
         
-      <div key={index} className='advisory-entity'>
+        <div className='ad-bg' id='#advisory'>
+            
+            <h2 className='advisory-title'>Advisory Committee</h2>
+            <div className='advisory-container'>
+            <Fade bottom duration={1000} delay={50}>
+                <div className='entity' id='advisory-entity'>
+                    <div className='circle'>
+                        <div className='circle-inner'>
+                            <img src='/krishna.png' alt="organizer-image" className='organizer-image'/>
+                        </div>
+                    </div>
+                    <p className='advisory-name'>Prof. A.Krishnamoorthy,</p>
+                    <p className='advisory-position'>Cochin University, Calicut,</p>
+                    <p className='advisory-college'>India</p>
 
-        <div className='advisory-box-1'>
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
-
-        <div className='advisory-details'>
-
-        <p className='advisory-name'>{entity.name}</p>
-        <p className='advisory-position'>{entity.college}</p>
-        <p className='advisory-department'>{entity.country}</p>
-        
+                </div>
+                </Fade>
+            </div>
 
         </div>
-
-      </div>
-      </Fade>
-
-    ))}
-  </div>
-
-  </div>
+        
+        
     )
-
 }
