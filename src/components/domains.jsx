@@ -23,7 +23,7 @@ export default function Domains(){
                     </div>
                     <div className='domain-bt'>
                         <div className='box-domain'>
-                        <img src="/calc.png" alt="" height={80} width={80}/>
+                        <img src="/calc.png" alt="" height={90} width={90}/>
                         </div>
                         <p>Control Theory and <br /> Fractional Calculus</p>
                     </div>

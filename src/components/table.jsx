@@ -2,7 +2,7 @@ import './css/table.css'
 
 export default function Table(){
     return(
-        <div>
+        <div className='table-container'>
 <table>
     <tr>
         <th>Committee</th>
