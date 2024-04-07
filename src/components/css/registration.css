@@ -84,7 +84,7 @@
     padding: 20px;
     text-align: center;
     font-family: var(--text1);
-    font-size:15px;
+    font-size:17px;
     font-weight: 500;
   }
 /* .r_payment_head{
@@ -157,7 +157,7 @@
 }
 .post_det{
     font-family: var(--text1);
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 500;
     margin:35px 0;
     border-radius: 10px;

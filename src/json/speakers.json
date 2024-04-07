@@ -1,57 +1,58 @@
 [
-    {
-      "name":"Prof. Hugo Leiva,",
-      "image": "/hugo.png",
-      "college": "Yachay Tech-University,",
-      "country":"Ecuador"
-    },
-    {
-      "name":"Prof. Rein Nobel,",
-      "image": "/rein.jpg",
-      "college": "Vrije University,",
-      "country": "Amstredam, Netherlands"
-    },
-    {
-      "name":"Prof.Thabet Abdeljawad,",
-      "image": "/thabet.jpeg",
-      "college": "Prince Sultan University,",
-      "country": "Saudi Arabia"
-    },
-    {
-        "name":"Prof. S. Dharmaraja,",
-        "image": "/dharma.jpeg",
-        "college": "Indian Institute of Technology, Delhi,",
-        "country" : "India"
-    },
-    {
-      "name":"Prof. Tanmay Basak,",
-      "image": "/tanmay.jpg",
-      "college": "Indian Institute of Technology, Chennai,",
-      "country" : "India"
-    },
-    {
-        "name":"Prof. A.Krishnamoorthy,",
-        "image": "/krishna.png",
-        "college": "Cochin University, Calicut,",
-        "country":"India"
-    },
-    {
-      "name":"Dr. Kavikumar Jacob,",
-        "image": "/kavi.jpg",
-        "college": "University Tun Hussein Onn,",
-        "country":"Malaysia"
-    },
-    {
-      "name":"Prof. Viswanathan Arunachalam,",
-        "image": "/Arunachalam.png",
-        "college": "National University of Colombia,",
-        "country":""
-    },
-    {
-      "name":"Prof. Satyananda Panda,",
-        "image": "/panda.png",
-        "college": "National Institute of Technology,",
-        "country":"India"
-    }
-  ]
+  {
+    "name": "Prof. A.Krishnamoorthy,",
+    "image": "/krishna.png",
+    "college": "Cochin University, Calicut,",
+    "country": "India"
+  },
+  {
+    "name": "Prof. S. Dharmaraja,",
+    "image": "/dharma.jpeg",
+    "college": "Indian Institute of Technology, Delhi,",
+    "country": "India"
+  },
+  {
+    "name": "Prof. Hugo Leiva,",
+    "image": "/hugo.png",
+    "college": "Yachay Tech-University,",
+    "country": "Ecuador"
+  },
   
+  {
+    "name": "Dr. Kavikumar Jacob,",
+    "image": "/kavi.jpg",
+    "college": "University Tun Hussein Onn,",
+    "country": "Malaysia"
+  },
+  {
+    "name": "Prof. Rein Nobel,",
+    "image": "/rein.jpg",
+    "college": "Vrije University,",
+    "country": "Amstredam, Netherlands"
+  },
+  {
+    "name": "Prof. Satyananda Panda,",
+    "image": "/panda.png",
+    "college": "National Institute of Technology,",
+    "country": "India"
+  },
+  {
+    "name": "Prof. Tanmay Basak,",
+    "image": "/tanmay.jpg",
+    "college": "Indian Institute of Technology, Chennai,",
+    "country": "India"
+  },
+  {
+    "name": "Prof.Thabet Abdeljawad,",
+    "image": "/thabet.jpeg",
+    "college": "Prince Sultan University,",
+    "country": "Saudi Arabia"
+  },
+  {
+    "name": "Prof. Viswanathan Arunachalam,",
+    "image": "/Arunachalam.png",
+    "college": "National University of Colombia,",
+    "country": ""
+  }
+  
+]

@@ -9,6 +9,7 @@ import { about, teams, authors } from "./menuitems.js"
 import "./navbar.css"
 import "./homepage.css"
 import { motion, useInView } from 'framer-motion';
+import Modal from '../modal.jsx';
 
 // const scrollToSection = (elementRef) => {
 //   window.scrollTo({
@@ -25,7 +26,7 @@ function Navbar() {
   const [dropdown, setDropdown] = useState(false);
   const [dropdown2, setDropdown2] = useState(false)
   const [dropdown3, setDropdown3] = useState(false)
-
+  const [modal4, setModal4] = useState(false)
   const closeMobileMenu = () => setClick(false);
   const handleActive = (tab) => {
     setActive(tab);
@@ -86,10 +87,10 @@ function Navbar() {
   return (
     <div className='h_header'>
       <div className="navbar">
-        <Link to='#home' className='nav-logo'   onClick={() => {
-              closeMobileMenu()
-              handleActive('home')
-            }}>
+        <Link to='#home' className='nav-logo' onClick={() => {
+          closeMobileMenu()
+          handleActive('home')
+        }}>
           <div className='span-logo'>
             <img className='logo-image' src="/logo.png" alt="" />
           </div>
@@ -99,7 +100,7 @@ function Navbar() {
         </div>
         <ul className={click ? 'nav-menu active' : 'nav-menu'}>
           <li className={`nav-item ${active === 'home' ? 'active' : ''}`}>
-            <Link to='#home'   className='nav-links' onClick={() => {
+            <Link to='#home' className='nav-links' onClick={() => {
               closeMobileMenu()
               handleActive('home')
             }}>
@@ -117,22 +118,22 @@ function Navbar() {
           </li>
           {/* --about- */}
           <li className={click ? 'nav-expand-item' : 'items'}>
-            <Link to='#college'  className='nav-links' onClick={closeMobileMenu}>
+            <Link to='#college' className='nav-links' onClick={closeMobileMenu}>
               College
             </Link>
-            <Link to='#department'  className='nav-links' onClick={closeMobileMenu}>
+            <Link to='#department' className='nav-links' onClick={closeMobileMenu}>
               Department
             </Link>
-            <Link to='#conference'  className='nav-links' onClick={closeMobileMenu}>
+            <Link to='#conference' className='nav-links' onClick={closeMobileMenu}>
               Conference
             </Link>
-            <Link to='#past_conference'  className='nav-links' onClick={closeMobileMenu}>
+            <Link to='#past_conference' className='nav-links' onClick={closeMobileMenu}>
               Previous Conference
             </Link>
           </li>
           {/* -- */}
           <li className={`nav-item ${active === 'domain' ? 'active' : ''}`}>
-            <Link to='#domain'  className='nav-links' onClick={() => {
+            <Link to='#domain' className='nav-links' onClick={() => {
               closeMobileMenu()
               handleActive('domain')
             }}>
@@ -150,19 +151,19 @@ function Navbar() {
           </li>
           {/* --team-- */}
           <li className={click ? 'nav-expand-item' : 'items'}>
-            <Link to='#organizing-committee'  className='nav-links' onClick={closeMobileMenu}>
+            <Link to='#organizing-committee' className='nav-links' onClick={closeMobileMenu}>
               Organizing committee
             </Link>
-            <Link to='#advisory-committee'  className='nav-links' onClick={closeMobileMenu}>
+            <Link to='#advisory-committee' className='nav-links' onClick={closeMobileMenu}>
               Advisory committee
             </Link>
-            <Link to='#technical-committee'  className='nav-links' onClick={closeMobileMenu}>
+            <Link to='#technical-committee' className='nav-links' onClick={closeMobileMenu}>
               Conference
             </Link>
           </li>
           {/* -- */}
           <li className={`nav-item ${active === 'speakers' ? 'active' : ''}`}>
-            <Link to='#speakers'  className='nav-links' onClick={() => {
+            <Link to='#speakers' className='nav-links' onClick={() => {
               closeMobileMenu()
               handleActive('speakers')
             }}>
@@ -173,43 +174,50 @@ function Navbar() {
             onMouseLeave={onMouseLeave3}
             onMouseEnter={onMouseEnter3}
           >
-            <Link to='#for-authors'  className='nav-links' onClick={closeMobileMenu}>
+            <Link to='#for-authors' className='nav-links' onClick={closeMobileMenu}>
               <span className="span-drop">For-authors<MdKeyboardArrowDown className='drop-icon' /></span>
             </Link>
             {dropdown3 && <Dropdown handleActive={handleActive} value={authors} tab={'authors'} />}
           </li>
           {/* -authors- */}
           <li className={click ? 'nav-expand-item' : 'items'}>
-            <Link to='#call-for-papers'  className='nav-links' onClick={closeMobileMenu}>
+            <Link to='#call-for-papers' className='nav-links' onClick={closeMobileMenu}>
               Call for papers
             </Link>
             <Link to='#payment-details' className='nav-links' onClick={closeMobileMenu}>
               Payment details
             </Link>
-            <Link to='#schedule'  className='nav-links' onClick={closeMobileMenu}>
+            <Link to='#schedule' className='nav-links' onClick={closeMobileMenu}>
               Schedule
             </Link>
           </li>
           {/* -- */}
           <li className={`nav-item ${active === 'important-date' ? 'active' : ''}`}>
-            <Link to='#important-date'  className='nav-links' onClick={() => {
+            <Link to='#important-date' className='nav-links' onClick={() => {
               closeMobileMenu()
               handleActive('important-date')
             }}>
               Important Date
             </Link>
           </li>
-          <li>
+          <li >
             <Link
-              to='/sign-up'
-              
+              to=''
               className='nav-links-mobile'
-              onClick={closeMobileMenu}
+              onClick={() => {
+                closeMobileMenu()   
+                setModal4(true)
+              }}
             >
               Register
             </Link>
           </li>
         </ul>
+        {modal4 && (<Modal title={<span>Registration</span>}
+                content={<h3>Coming soon... </h3>}
+                close={setModal4}
+          />
+          )}
         <Button />
       </div>
       <div className="overlay"></div>
@@ -222,21 +230,21 @@ function Navbar() {
             flexDirection: "column",
             y: -200
           }}
-          
+
           whileInView={{
             y: 0
 
           }}
           transition={{
-            duration:1
+            duration: 1
           }}
         >
-          
+
           <h2 className='h_conference'>Sixth International Conference</h2>
-          <h1 className='h_topic'>APPLIED MATHEMATICAL MODEL</h1> 
+          <h1 className='h_topic'>APPLIED MATHEMATICAL MODEL</h1>
           <h1 className='h_name'>(ICAMM 2025)</h1>
           <h3 className='h_month'>January 8-10, 2025</h3>
-          
+
         </motion.div>
         <div className="section_bottom">
           <motion.div className="h-left"
@@ -248,35 +256,35 @@ function Navbar() {
               x: -200
             }}
             transition={{
-              duration:1
+              duration: 1
             }}
             whileInView={{
               x: 0
             }}
-           
+
           >
-            <img src="/psg-logo.jpg" alt=""  className='psg-logo'/>
+            <img src="/psg-logo.jpg" alt="" className='psg-logo' />
           </motion.div>
           <motion.div className="h-right"
-          ref={ref}
-          initial={{
-            display: "flex",
-            flexDirection:"column",
-            x: 400
-          }}
-          transition={{
-            duration:1
-          }}
-          whileInView={{
-            x: 0
-          }}
+            ref={ref}
+            initial={{
+              display: "flex",
+              flexDirection: "column",
+              x: 400
+            }}
+            transition={{
+              duration: 1
+            }}
+            whileInView={{
+              x: 0
+            }}
           >
             <p className='h_organizer'>Organized by</p>
             <p className='h_department'>Department of Mathematics</p>
             <h2 className='h_college'>PSG COLLEGE OF TECHNOLOGY</h2>
             <p className='h_place'>Coimbatore-641004, Tamilnadu, India.</p>
           </motion.div>
-          
+
         </div>
       </div>
 

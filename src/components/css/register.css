@@ -42,6 +42,7 @@
     font-size:40px;
     font-family:var(--text1);
     color:var(--bg4);
+    cursor: pointer;
 }
 
 .symbol{

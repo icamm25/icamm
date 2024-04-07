@@ -1,16 +1,14 @@
-.modal{
+.rmodal{
     position:fixed;
-    top:0;
     left:0;
-    background-color: rgba(0,0,0,0.4);
     height:100vh;
     width:100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    z-index: 1000;
+    z-index: 100;
 }
-.modal_container{
+.rmodal_container{
     background-color: #fff;
     max-width: 600px;
     width:100%;
@@ -22,22 +20,22 @@
     justify-content: space-between;
     position: relative;
 }
-.modal_title{
+.rmodal_title{
     padding: 1rem;
     border-bottom: 1px solid #ccc;
 }
-.modal_content{
+.rmodal_content{
     flex:1;
     padding: 1rem;
 }
-.modal_footer{
+.rmodal_footer{
     padding:1rem;
     border-top:1px solid #ccc;
     display:flex;
     justify-content: flex-end;
 
 }
-.modal_close{
+.rmodal_close{
     position:absolute;
     font-size: 2rem;
     font-weight: bold;
@@ -45,6 +43,6 @@
     right:1rem;
     cursor:pointer;
 }
-.modal_btn{
+.rmodal_btn{
     cursor: pointer;
 }
