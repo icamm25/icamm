@@ -1,8 +1,15 @@
+.table-container{
+    background-color: rgb(242, 242, 236);
+    padding:30px;
+}
+
 table {
     font-size: 18px;
     width: 50%;
     border-collapse: collapse;
     font-family: 'open sans',sans-serif;
+    background-color: rgb(255, 255, 255);
+    margin-top: 30px;
 }
 th, td {
     border:1px solid black;

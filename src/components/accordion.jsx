@@ -91,7 +91,12 @@ const Accord = () => {
       },
   ];
 
-  return <Accordion items={accordionItems} />;
+  return (
+    <div className='acc-container'>
+      <Accordion items={accordionItems} />;
+    </div>
+  
+  )
 };
 
 export default Accord;

@@ -26,7 +26,7 @@ export default function Conference(){
 
 
                 <div className='conference-pic'>
-                    <img src="https://www.educationworld.in/wp-content/uploads/2013/05/Untitled-design-4-1.jpg" alt="conference" />
+                    <img src="/math.jpg" alt="conference" />
                 </div>
 
             </div>

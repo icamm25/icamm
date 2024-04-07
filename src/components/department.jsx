@@ -18,7 +18,7 @@ export default function Department(){
 
 
                 <div className='department-image'>
-                        <img src="/math.jpg" alt='department'></img>
+                        <img src="/dept.jpg" alt='department'></img>
                 </div>
 
                 <div className='department-desc'>
