@@ -15,7 +15,7 @@ export  const about = [
         cName: 'dropdown-link'
     },
     {
-        title: 'Previous_Conference',
+        title: 'Previous\nConference',
         path: '#past_conference',
         cName: 'dropdown-link'
     }
