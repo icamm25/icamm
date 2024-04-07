@@ -92,7 +92,7 @@ export default function Table(){
     </tr>
 
     <tr>
-        <td rowspan="7">Funding and Finance Committee</td>
+        <td rowspan="7">Publicity and Hospitality Committee</td>
         <td>Ms. M. Radhiga (Convener)</td>
     </tr>
     <tr>

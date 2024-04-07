@@ -14,6 +14,11 @@ export  const about = [
         path: '#conference',
         cName: 'dropdown-link'
     },
+    {
+        title: 'Previous_Conference',
+        path: '#past_conference',
+        cName: 'dropdown-link'
+    }
 
 ]
 export  const teams = [

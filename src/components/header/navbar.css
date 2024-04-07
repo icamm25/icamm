@@ -55,7 +55,7 @@
   .nav-item.active{
     display: flex;
     align-items: center;
-    height: 74px;
+    /* height: 74px; */
     cursor: pointer;
     position: relative;
   }
@@ -104,6 +104,7 @@
     color: white;
     text-decoration: none;
     padding: 0.5rem 0.3rem;
+    margin:0 ;
   }
   .nav-links-mobile {
     display: none;

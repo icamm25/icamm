@@ -9,9 +9,9 @@ export default function Footer(){
                 <p>&copy; PSG College of Technology</p>
                 <br/>
 
-                <center><div className='team'>
+                {/* <center><div className='team'>
                     View Team
-                </div></center>
+                </div></center> */}
             </div>
 
             <div className='footer2'>
@@ -28,9 +28,8 @@ export default function Footer(){
                     <li><a href='#'><Link to='#college'>&gt; About</Link></a></li>
                     <li><a href='#'><Link to='#domain'>&gt; Domain</Link></a></li>
                     <li><a href='#'><Link to='#speakers'>&gt; Speakers</Link></a></li>
-                    <li><a href='#'><Link to='#call_for_papers'>&gt; Authors</Link></a></li>
                     <li><a href='#'><Link to='#contact'>&gt; contact</Link></a></li>
-                    <li><a href='#'><Link to='#registration'>&gt; Important dates</Link></a></li>
+                    <li><a href='#'><Link to='#important-date'>&gt; Important dates</Link></a></li>
                 </ul>
             </div>
         </div>
