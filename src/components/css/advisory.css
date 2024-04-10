@@ -16,7 +16,12 @@
     color:black;
     font-weight:500;
 }
-
+.advisory-position{
+    color:black !important;
+}
+.advisory-college{
+    color:black !important;
+}
 .advisory-name{
     color:var(--bg3) !important;
     font-weight:bold;
