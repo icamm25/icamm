@@ -13,8 +13,6 @@ export default function College(){
                     <img src="/clg.jpg" alt="college" />
                 </div>
                 
-
-            
                 <div className='college-head'>
                     <div className='college-header-btn'>About the College</div>
                     <h2 className='college-title'>PSG College of Technology</h2>
