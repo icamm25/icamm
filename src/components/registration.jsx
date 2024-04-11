@@ -58,8 +58,9 @@ function Registration() {
                         <div className="r_payment_grid_item">
                         <div className="r_flex_item">
                                 <div className="r_inside_item r_one">
-                                    <p className="r_p_one">Account Number:</p>
+                                    <p className="r_p_one">Account Number</p>
                                 </div>
+                                <hr className='pay_line' />
                                 <div className="r_inside_item r_one">
                                     <p className="r_p_one">1481267367</p>
                                 </div>
@@ -69,8 +70,9 @@ function Registration() {
                         <div className="r_payment_grid_item">
                         <div className="r_flex_item">
                                 <div className="r_inside_item r_one">
-                                    <p className="r_p_one">Type of Account:</p>
+                                    <p className="r_p_one">Type of Account</p>
                                 </div>
+                                <hr className='pay_line' />
                                 <div className="r_inside_item r_one">
                                     <p className="r_p_one">Saving A/C</p>
                                 </div>
@@ -80,8 +82,9 @@ function Registration() {
                         <div className="r_payment_grid_item">
                         <div className="r_flex_item">
                                 <div className="r_inside_item r_one">
-                                    <p className="r_p_one">Account Name:</p>
+                                    <p className="r_p_one">Account Name</p>
                                 </div>
+                                <hr className='pay_line' />
                                 <div className="r_inside_item r_one">
                                     <p className="r_p_one">PSG Centre for Nonformal and continuing education</p>
                                 </div>
@@ -91,8 +94,9 @@ function Registration() {
                         <div className="r_payment_grid_item">
                         <div className="r_flex_item">
                                 <div className="r_inside_item r_one">
-                                    <p className="r_p_one">Bank:</p>
+                                    <p className="r_p_one">Bank</p>
                                 </div>
+                                <hr className='pay_line' />
                                 <div className="r_inside_item r_one">
                                     <p className="r_p_one">Central Bank of India</p>
                                 </div>
@@ -102,8 +106,9 @@ function Registration() {
                         <div className="r_payment_grid_item">
                         <div className="r_flex_item">
                                 <div className="r_inside_item r_one">
-                                    <p className="r_p_one">Branch:</p>
+                                    <p className="r_p_one">Branch</p>
                                 </div>
+                                <hr className='pay_line' />
                                 <div className="r_inside_item r_one">
                                     <p className="r_p_one">Peelamedu</p>
                                 </div>
@@ -112,8 +117,9 @@ function Registration() {
                         <div className="r_payment_grid_item">
                         <div className="r_flex_item">
                                 <div className="r_inside_item r_one">
-                                    <p className="r_p_one">IFSC:</p>
+                                    <p className="r_p_one">IFSC</p>
                                 </div>
+                                <hr className='pay_line' />
                                 <div className="r_inside_item r_one">
                                     <p className="r_p_one">CBIN0280913</p>
                                 </div>
@@ -122,8 +128,9 @@ function Registration() {
                         <div className="r_payment_grid_item">
                             <div className="r_flex_item">
                                 <div className="r_inside_item r_one">
-                                    <p className="r_p_one">MICR Code:</p>
+                                    <p className="r_p_one">MICR Code</p>
                                 </div>
+                                <hr className='pay_line' />
                                 <div className="r_inside_item r_one">
                                     <p className="r_p_one">641016006</p>
                                 </div>
@@ -132,10 +139,11 @@ function Registration() {
                         <div className="r_payment_grid_item">
                             <div className="r_flex_item">
                                 <div className="r_inside_item r_one">
-                                    <p className='r_p_one'>Bank Branch Address:</p>
+                                    <p className='r_p_one'>Bank Branch Address</p>
                                 </div>
-                                <div className="r_inside_item r_two">
-                                    <p className='r_p_two'>Peelamedu,Coimbatore,641004</p>
+                                <hr className='pay_line' />
+                                <div className="r_inside_item r_one">
+                                    <p className="r_p_one">Peelamedu &#44; Coimbatore&#44; 641004</p>
                                 </div>
                             </div>
 
@@ -151,43 +159,3 @@ function Registration() {
     )
 }
 export default Registration
-{/* <div className="r_payment_head">
-                        <div className="r_box r">
-                            <p className='reg_title'>Indian Delegate</p>
-                            <div className="r_head_symbol_box"><img src="./rupee.png" alt="" height={40} width={40}/></div>
-                        </div>
-                        <div className="r_box r_national">
-                            <p className='reg_title'>Foreign Delegate</p>
-                            <div className="r_head_symbol_box"><img src="./dollar.svg" alt="" height={60} width={60}/></div>
-                        </div>
-                    </div>
-                    <div className="r_payment_grid_container">
-                        {/* {items2.map((item, index) => (
-                            <div key={index} className="r_payment_grid_item">{item}
-                            </div>
-                        ))} */}
-//                         <div className="r_payment_grid_item">
-//                             <p>The registration fee is to be paid by Demand Draft drawn in favor of “PSG CNCE” payable at Coimbatore and Draft to be sent to the organizing secretary</p>
-//                         </div>
-//                         <div className="r_payment_grid_item_2">
-//                             <div className="r_pay_box">
-//                             <p>SWIFT TRANSFER (US DOLLAR) <br />
-//                                 Remit to: CITI BANK, NEW YORK <br />
-//                                 SWIFT Code: CITIUS33 <br />
-//                             </p>
-//                             <p>For Further credit to <br />
-//                                 CENTRAL BANK OF INDIA <br />
-//                                 International Business Branch, Mumbai <br />
-//                                 USD 36072305 <br />
-//                             </p>
-//                             <p>SWIFT code: CBININBBOSB <br />
-//                                 Ultimate Beneficiary <br />
-//                                 PSG CNCE, PSGCT <br />
-//                                 Bank A/c No 1481267367, <br /> IFSC Code: CBIN0280913 with <br />
-//                                 Central Bank of India, Peelamedu, <br />
-//                                 Coimbatore-641 004,Tamilnadu, INDIA <br />
-//                             </p>
-//                             </div>
-//                         </div>
-//                     </div> */}
-//

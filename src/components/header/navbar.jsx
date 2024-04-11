@@ -240,9 +240,9 @@ function Navbar() {
           }}
         >
 
-          <h2 className='h_conference'>Sixth International Conference</h2>
-          <h1 className='h_topic'>APPLIED MATHEMATICAL MODEL</h1>
-          <h1 className='h_name'>(ICAMM 2025)</h1>
+          <h2 className='h_conference'>Sixth International Conference On</h2>
+          <h1 className='h_topic'>APPLIED MATHEMATICAL MODELS</h1>
+          <h1 className='h_name'>ICAMM 2025</h1>
           <h3 className='h_month'>January 8-10, 2025</h3>
 
         </motion.div>

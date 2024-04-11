@@ -61,6 +61,7 @@
 .domain-bt p{
     font-family: var(--text1);
     text-align: center;
+    font-weight: bold;
     
 
 }

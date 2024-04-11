@@ -135,9 +135,11 @@
     margin: 0;
     padding: 0;
     display:flex;
-    justify-content:center;
+    justify-content:start;
     align-items: center;
     flex-direction: row;
+    font-size: 17px;
+     margin: 0 1em;
 }
 .r_one{
   flex:1;
@@ -146,9 +148,11 @@
     flex:1;
 }
 
+
 .p_det{
     font-family: var(--text1);
-    font-size: 22px;
+    font-size: 20px;
+    text-align: justify;
     font-weight: 500;
     border-radius: 10px;
     background-color:#EEF6FB;
@@ -157,13 +161,19 @@
 }
 .post_det{
     font-family: var(--text1);
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 500;
+    text-align: justify;
     margin:35px 0;
     border-radius: 10px;
     background-color:#EEF6FB;
     padding: 10px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.pay_line{
+    border:1px solid black;
+    margin:0;
+
 }
   @media screen and (max-width: 1150px) {
     .r_symbol_box{
@@ -243,6 +253,12 @@
     .r_payment_grid_container{
         font-size: 0.6rem;
     }
+    .p_det{
+        text-align: start;
+    }
+    .post_det{
+        text-align: start;
+    }
    
   }
   @media screen and (max-width:407px){
@@ -256,5 +272,13 @@
     .r_payment_grid_container{
         font-size: 0.5rem;
     }
+    .r_inside_item{
+        font-size: 14px;
+    }
     
+  }
+  @media screen and (max-width:360px){
+    .r_inside_item{
+        font-size: 12px;
+    }
   }
