@@ -27,6 +27,10 @@
     display: flex;
     justify-content: center;
 }
+.contact-email{
+    text-decoration: underline;
+    color: blue !important;
+}
 
 @media screen and (min-width:492px) and (max-width:768px){
     .contact-container p{

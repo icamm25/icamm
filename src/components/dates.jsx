@@ -9,18 +9,18 @@ export default function Dates(){
     return (
         <div  id="#important-date" className="date-section">
             <div className="important-date">
-                <h1>Important date</h1>
+                <h1>Important Dates</h1>
                 <Dates_item/>
             </div>
             <div  id='#schedule' className="schedule">
-                <h1>Schedule</h1>
+                <h1>Program Schedule</h1>
                 <div className="sc_box">
                     <div className="sc_circle">
                         <div className="sc_inside">
                         <button className='sc_link' onClick={()=>setModal(true)}>Day  1</button>
                              {modal && ( 
                                 <Modal title={<span>Day 1</span>}
-                                content={<h3>Will update soon... </h3>}
+                                content={<h3>Will be updated soon... </h3>}
                                 close={setModal}
                                 />
                              )}    
@@ -31,7 +31,7 @@ export default function Dates(){
                         <button className='sc_link' onClick={()=>setModal1(true)}>Day 2</button>
                              {modal1 && ( 
                                 <Modal title={<span>Day 2</span>}
-                                content={<h3>Will update soon... </h3>}
+                                content={<h3>Will be updated soon... </h3>}
                                 close={setModal1}
                                 />
                              )}   
@@ -42,7 +42,7 @@ export default function Dates(){
                         <button className='sc_link' onClick={()=>setModal2(true)}>Day 3</button>
                              {modal2 && ( 
                                 <Modal title={<span>Day 3</span>}
-                                content={<h3>Will update soon... </h3>}
+                                content={<h3>Will be updated soon... </h3>}
                                 close={setModal2}
                                 />
                              )}

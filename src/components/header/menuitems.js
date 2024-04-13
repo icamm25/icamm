@@ -15,7 +15,7 @@ export  const about = [
         cName: 'dropdown-link'
     },
     {
-        title: 'Previous\nConference',
+        title: 'Previous\nEditions',
         path: '#past_conference',
         cName: 'dropdown-link'
     }
@@ -32,11 +32,11 @@ export  const teams = [
         path: '#advisory-committee',
         cName: 'dropdown-link'
     },
-    {
-        title: 'Technical committee',
-        path: '#technical-committee',
-        cName: 'dropdown-link'
-    },
+    // {
+    //     title: 'Conference',
+    //     path: '#',
+    //     cName: 'dropdown-link'
+    // },
 
 ]
 export  const authors = [
@@ -51,7 +51,7 @@ export  const authors = [
         cName: 'dropdown-link'
     },
     {
-        title: 'Schedule',
+        title: 'Program Schedule',
         path: '#schedule',
         cName: 'dropdown-link'
     },

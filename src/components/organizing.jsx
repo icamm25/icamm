@@ -5,7 +5,7 @@ import {Fade} from 'react-reveal'
 export default function Organizing(){
     return(
         <div className='black-bg' id='#organizing-committee'>
-            <h2 className='organizing-title'> The Organizing Commitee</h2>
+            <h2 className='organizing-title'> The Organizing Committee</h2>
 
         <div className='organizing-container'>
 

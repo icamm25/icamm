@@ -71,6 +71,7 @@
 .department-header-btn{
     text-align: center;
     padding: 15px;
+    font-size: 17px;
     width:250px;
     padding-right: 5px;
     background-color: var(--bg2);

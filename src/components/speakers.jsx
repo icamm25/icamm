@@ -5,7 +5,7 @@ import {Fade} from 'react-reveal'
 export default function Speakers(){
     return(
         <div className='black-bg' id='#speakers'>
-            <h2 className='speakers-title'> Speakers</h2>
+            <h2 className='speakers-title'>Plenary Speakers</h2>
 
         <div className='speakers-container'>
 

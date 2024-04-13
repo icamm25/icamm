@@ -19,6 +19,12 @@
 .call-container>p>a{
     color:blue;
 }
+.cal-link{
+    text-decoration: underline;
+    color: blue;
+}
+
+
 
 @media(max-width:768px){
     .call-container p{

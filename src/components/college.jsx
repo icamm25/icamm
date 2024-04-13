@@ -22,16 +22,13 @@ export default function College(){
                     <div className='college-text-box'>
                         <p>PSG College of Technology, established in the year 1951 by PSG &amp; Sons’ Charities, is an ISO
                             9001 - 2015 certified autonomous college affiliated to Anna University, Chennai. The college
-                            offers 21 undergraduate programmes and 24 postgraduate programmes including Engineering
+                            offers 21 undergraduate programmes and 24 postgraduate programmes which includes Engineering
                             and Technology, Computer Applications, Management Sciences, Basic and Applied Sciences.
-                            The college today has student strength of about 8515 with 15 Engineering and Technology
-                            departments. More than 600 research scholars are pursuing research programmes leading to
-                            Ph.D/MS/MTech degrees and the college is a recognized QIP centre for postgraduate and Ph.D
-                            programmes. Several advanced centres are set up with financial support from MHRD, DST and
+                            Several advanced centres are set up with financial support from MoE, DST and
                             other agencies. PSG College of Technology was ranked second under Colleges/Institutes (Govt.
                             &amp; Govt. Aided) (Technical) by ATAL Ranking of Institutions on Innovation Achievements
                             (ARIIA), Ministry of Education, Government of India in the year 2021 and the best industry
-                            linked institution by AICTE-CII in the year 2012. </p>
+                            linked institution by AICTE-CII in the year 2012. During the occasion of India assuming the G20 Presidency on December 1, 2022, PSG College of Technology was identified as pioneer among the 75 educational institutions across India, with special responsibilities towards organizing special lectures, student exchange programmes, academic and cultural activities to spread awareness among the youth and the academic community on the G20 agenda. </p>
                     </div>
                 </div>
             </div>

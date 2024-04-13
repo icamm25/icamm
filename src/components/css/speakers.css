@@ -18,6 +18,7 @@
     display: flex;
     flex-wrap:wrap;
     background-color: var(--bg2);
+    justify-content:center ;
 }
 
 .entity{

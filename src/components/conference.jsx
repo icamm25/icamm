@@ -18,7 +18,7 @@ export default function Conference(){
                             January 8–10, 2025. The conference aims to stimulate research and make a substantial
                             contribution to the advancement of computational and mathematical models. This is achieved by
                             offering a forum for the exchange of novel concepts and discussions of recent advancements in
-                            the subject between scholars, researchers, students, and business professionals. Further, it would
+                            the subject among scholars, researchers, students, and business professionals. Further, it would
                             provide a platform for outstanding research articles on mathematics&#39; theoretical foundations and
                             technological and engineering applications.</p>
                     </div>

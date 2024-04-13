@@ -19,7 +19,7 @@ export default function Domains(){
                         <div className='box-domain'>
                         <img src="/graph.png" alt="" height={80} width={80}/>
                         </div>
-                        <p>Graph theory and <br /> Combinatorics</p>
+                        <p>Graph Theory and <br /> Combinatorics</p>
                     </div>
                     <div className='domain-bt'>
                         <div className='box-domain'>
@@ -38,7 +38,7 @@ export default function Domains(){
                     </div>
                     <div className='domain-bt'>
                         <div className='box-domain'>
-                        <img src="/model.png" alt="" height={80} width={80}/>
+                        <img src="/model.png" alt="" height={100} width={100}/>
                         </div>
                         <p>Mathematical<br/> Modeling</p>
                     </div>

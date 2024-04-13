@@ -28,11 +28,10 @@ export default function Department(){
                             has seen a phenomenal growth and success. The department is equipped with 27 dedicated
                             faculty as facilitators with a strong research base. So far, the department has produced 43
                             doctorates in the field of Applied and Pure Mathematics. Several outreach events, including
-                            conferences, workshops, seminars, and symposiums on a wide range of topics, are organized by
-                            the department. The department also trains engineering students in strong mathematical
+                            conferences, workshops, seminars, and symposiums on a wide range of topics, were organized by
+                            the department. The department also trains engineering students with strong mathematical
                             background to enhance and apply their skills to find solutions to their field specific problems. An
-                            appreciable number of research articles with Scopus and SCI indexes are published annually in
-                            publications that are associated with the department.</p>
+                            appreciable number of research articles with Scopus and SCI indexes are published annually that are associated with the department.</p>
                 </div>
 
                 <div className='department-desc-mobile'>

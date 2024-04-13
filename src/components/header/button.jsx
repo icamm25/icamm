@@ -15,7 +15,7 @@ export default function Button() {
     </Link>
      {
       modal5 && (<Modal title={<span>Registration</span>}
-      content={<h3>Coming soon... </h3>}
+      content={<h3>Will be updated soon... </h3>}
       close={setModal5}
     />
     )}

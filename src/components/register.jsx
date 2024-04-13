@@ -22,7 +22,7 @@ export default function Register(){
                         </div>
                         {modal0 && ( 
                                 <Rmodal title={<span>Registration</span>}
-                                content={<h3>Coming soon... </h3>}
+                                content={<h3>Will be updated soon... </h3>}
                                 close={setModal0}
                                 />
                              )}    

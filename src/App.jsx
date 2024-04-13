@@ -37,8 +37,9 @@ function App() {
       
       <Domains />
       <Organizing />
-      <center><Table /></center>
       <Advisory />
+      <center><Table /></center>
+      
       <Accord />
       {/* <Technical /> */}
       <Speakers />

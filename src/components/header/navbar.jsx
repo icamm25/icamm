@@ -128,7 +128,7 @@ function Navbar() {
               Conference
             </Link>
             <Link to='#past_conference' className='nav-links' onClick={closeMobileMenu}>
-              Previous Conference
+              Previous Editions
             </Link>
           </li>
           {/* -- */}
@@ -137,7 +137,7 @@ function Navbar() {
               closeMobileMenu()
               handleActive('domain')
             }}>
-              Domain
+              Domains
             </Link>
           </li>
           <li className={click ? 'items' : (active === 'teams' ? 'nav-item active' : 'nav-item')}
@@ -157,9 +157,9 @@ function Navbar() {
             <Link to='#advisory-committee' className='nav-links' onClick={closeMobileMenu}>
               Advisory committee
             </Link>
-            <Link to='#technical-committee' className='nav-links' onClick={closeMobileMenu}>
+            {/* <Link to='#technical-committee' className='nav-links' onClick={closeMobileMenu}>
               Conference
-            </Link>
+            </Link> */}
           </li>
           {/* -- */}
           <li className={`nav-item ${active === 'speakers' ? 'active' : ''}`}>
@@ -175,7 +175,7 @@ function Navbar() {
             onMouseEnter={onMouseEnter3}
           >
             <Link to='#for-authors' className='nav-links' onClick={closeMobileMenu}>
-              <span className="span-drop">For-authors<MdKeyboardArrowDown className='drop-icon' /></span>
+              <span className="span-drop">For Authors<MdKeyboardArrowDown className='drop-icon' /></span>
             </Link>
             {dropdown3 && <Dropdown handleActive={handleActive} value={authors} tab={'authors'} />}
           </li>
@@ -188,7 +188,7 @@ function Navbar() {
               Payment details
             </Link>
             <Link to='#schedule' className='nav-links' onClick={closeMobileMenu}>
-              Schedule
+              Program Schedule
             </Link>
           </li>
           {/* -- */}
@@ -197,7 +197,7 @@ function Navbar() {
               closeMobileMenu()
               handleActive('important-date')
             }}>
-              Important Date
+              Important Dates
             </Link>
           </li>
           <li >
@@ -214,7 +214,7 @@ function Navbar() {
           </li>
         </ul>
         {modal4 && (<Modal title={<span>Registration</span>}
-                content={<h3>Coming soon... </h3>}
+                content={<h3>Will be updated soon...</h3>}
                 close={setModal4}
           />
           )}

@@ -4,6 +4,14 @@
         "image": "/krishna.png",
         "college": "Cochin University, Calicut,",
         "country":"India"
+    },
+    {
+      "name":"Prof. Arumuganathan R,",
+        "image": "/arum.jpg",
+        "college": "PSG College of Technology",
+        "country":"India"
     }
+
+
   ]
   

@@ -28,8 +28,9 @@ export default function Footer(){
                     <li><a href='#'><Link to='#college'>&gt; About</Link></a></li>
                     <li><a href='#'><Link to='#domain'>&gt; Domain</Link></a></li>
                     <li><a href='#'><Link to='#speakers'>&gt; Speakers</Link></a></li>
-                    <li><a href='#'><Link to='#contact'>&gt; contact</Link></a></li>
                     <li><a href='#'><Link to='#important-date'>&gt; Important dates</Link></a></li>
+                    <li><a href='#'><Link to='#contact'>&gt; Contact</Link></a></li>
+                    
                 </ul>
             </div>
         </div>
