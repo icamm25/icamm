@@ -4,7 +4,7 @@
     place-content: center;
     background-color: #d4e7f3;
     width: 100%;
-    height: auto;
+    max-height: 100%;
     padding: 30px;
     margin-bottom:120px;
     
