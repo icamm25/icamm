@@ -9,7 +9,7 @@
     color:black;
     font-family: var(--text1);
     font-size:40px;
-    margin-bottom:80px;
+    /* margin-bottom:80px; */
 }
 
 .contact-container p{
@@ -31,7 +31,11 @@
     text-decoration: underline;
     color: blue !important;
 }
-
+@media screen and (max-width:929px){
+    .entity{
+        width: 99%;
+    }
+}
 @media screen and (min-width:492px) and (max-width:768px){
     .contact-container p{
         font-size:18px;
@@ -62,6 +66,8 @@
         max-width: 99%;
         text-wrap: wrap;
     }
-
+    .blue-bg{
+        padding:50px;
+    }
     
 }
