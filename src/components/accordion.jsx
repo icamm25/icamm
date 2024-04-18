@@ -70,24 +70,24 @@ const Accord = () => {
   const accordionItems = [
     {
       title: 'ICAMM 2023',
-      images: ['/23_01.jpg','/23_02.JPG','./23_03.jpeg','./23_04.JPG'],
+      images: ['./23_01.jpg','./23_02.JPG','./23_03.jpeg','./23_04.JPG'],
     },
     {
         title: 'ICAMM 2021',
-        images: ['/21_01.png','/21_02.jpeg','./21_03.jpeg','./21_04.jpeg','./21_05.jpeg'],
+        images: ['./21_01.png','./21_02.jpeg','./21_03.jpeg','./21_04.jpeg','./21_05.jpeg'],
       },
     {
       title: 'ICAMM 2018',
-      images: ['/18_01.jpg', '/18_02.jpg', '/18_03.jpg', '/18_04.jpg', '/18_05.jpg', '/18_06.jpg'],
+      images: ['./18_01.jpg', './18_02.jpg', './18_03.jpg', './18_04.jpg', './18_05.jpg', './18_06.jpg'],
     },
     
       {
         title: 'ICAMM 2016',
-        images: ['/16_01.jpg', '/16_02.jpg', '/16_03.jpg', '/16_04.jpg', '/16_05.jpg', '/16_06.jpg'],
+        images: ['./16_01.jpg', './16_02.jpg', './16_03.jpg', './16_04.jpg', './16_05.jpg', './16_06.jpg'],
       },
       {
         title: 'ICAMM 2014',
-        images: ['/14_01.jpg', '/14_02.jpg', '/14_03.jpg', '/14_04.jpg', '/14_05.jpg', '/14_06.jpg'],
+        images: ['./14_01.jpg', './14_02.jpg', './14_03.jpg', './14_04.jpg', './14_05.jpg', './14_06.jpg'],
       },
   ];
 
