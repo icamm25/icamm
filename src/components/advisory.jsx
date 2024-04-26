@@ -16,7 +16,7 @@ export default function advisory(){
                         </div>
                     </div>
                     <p className='advisory-name'>Prof. A. Krishnamoorthy,</p>
-                    <p className='advisory-position'>Cochin University, Calicut,</p>
+                    <p className='advisory-position'>CMS College, Kottayam,</p>
                     <p className='advisory-college'>India</p>
 
                 </div>
