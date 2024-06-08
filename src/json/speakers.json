@@ -53,6 +53,25 @@
     "image": "/Arunachalam.png",
     "college": "National University of Colombia,",
     "country": "Colombia"
+  },
+  {
+    "name": "Prof. Dmitry Kozyrev,",
+    "image": "/Dmitry.png",
+    "college": "Russian Academy of Sciences(ICS RAS),",
+    "country": "Moscow"
+  },
+  {
+    "name": "Prof. MasakiyoMiyazawa,",
+    "image": "/maskiyo.png",
+    "college": "Tokyo University of Science,",
+    "country": "Japan"
+  },
+  {
+    "name": "Prof. Soren Asmussen,",
+    "image": "/soren.png",
+    "college": "Aarhus University,",
+    "country": "Denmark"
   }
+
   
 ]
