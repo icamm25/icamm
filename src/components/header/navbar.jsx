@@ -201,23 +201,20 @@ function Navbar() {
             </Link>
           </li>
           <li >
-            <Link
-              to=''
+            <a
+              href='https://forms.gle/RrUb9qtFo1zrtkfy5'
+              target='_blank'
               className='nav-links-mobile'
               onClick={() => {
                 closeMobileMenu()   
-                setModal4(true)
+                
               }}
             >
               Register
-            </Link>
+            </a>
           </li>
         </ul>
-        {modal4 && (<Modal title={<span>Registration</span>}
-                content={<h3>Will be updated soon...</h3>}
-                close={setModal4}
-          />
-          )}
+
         <Button />
       </div>
       <div className="overlay"></div>

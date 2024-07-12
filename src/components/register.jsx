@@ -13,9 +13,9 @@ export default function Register(){
                 {/* <a href=''> */}
                     <div className='register-btn'>
                 
-                        <div className='text-inner' onClick={()=>setModal0(true)}>
+                        <a href="https://forms.gle/RrUb9qtFo1zrtkfy5" target='_blank'><div className='text-inner'>
                             Register
-                        </div>
+                        </div></a>
 
                         <div className='symbol'>
                             &gt;
