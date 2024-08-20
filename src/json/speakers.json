@@ -12,6 +12,12 @@
     "country": "India"
   },
   {
+    "name": "Prof. Dmitry Kozyrev,",
+    "image": "/Dmitry.png",
+    "college": "Russian Academy of Sciences(ICS RAS),",
+    "country": "Moscow"
+  },
+  {
     "name": "Prof. Hugo Leiva,",
     "image": "/hugo.png",
     "college": "Yachay Tech-University,",
@@ -25,16 +31,28 @@
     "country": "Malaysia"
   },
   {
-    "name": "Prof. Rein Nobel,",
-    "image": "/rein.jpg",
-    "college": "Vrije University,",
-    "country": "Amstredam, Netherlands"
+    "name": "Prof. Masakiyo Miyazawa,",
+    "image": "/maskiyo.png",
+    "college": "Tokyo University of Science,",
+    "country": "Japan"
+  },
+  {
+    "name": "Prof. Paola Tardelli,",
+    "image": "/Paola.png",
+    "college": "University of L'Aquila,",
+    "country": "Italy"
   },
   {
     "name": "Prof. Satyananda Panda,",
     "image": "/panda.png",
     "college": "National Institute of Technology, Calicut,",
     "country": "India"
+  },
+  {
+    "name": "Prof. Soren Asmussen,",
+    "image": "/soren.png",
+    "college": "Aarhus University,",
+    "country": "Denmark"
   },
   {
     "name": "Prof. Tanmay Basak,",
@@ -53,25 +71,8 @@
     "image": "/Arunachalam.png",
     "college": "National University of Colombia,",
     "country": "Colombia"
-  },
-  {
-    "name": "Prof. Dmitry Kozyrev,",
-    "image": "/Dmitry.png",
-    "college": "Russian Academy of Sciences(ICS RAS),",
-    "country": "Moscow"
-  },
-  {
-    "name": "Prof. MasakiyoMiyazawa,",
-    "image": "/maskiyo.png",
-    "college": "Tokyo University of Science,",
-    "country": "Japan"
-  },
-  {
-    "name": "Prof. Soren Asmussen,",
-    "image": "/soren.png",
-    "college": "Aarhus University,",
-    "country": "Denmark"
   }
+
 
   
 ]
