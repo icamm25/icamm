@@ -184,10 +184,12 @@ function Navbar() {
             <Link to='#submission-guidelines' className='nav-links' onClick={closeMobileMenu}>
               Submission Guidelines
             </Link>
-            <Link to='https://forms.gle/X2hTLHrkKNcYvZi8A' className='nav-links' onClick={closeMobileMenu}>
+            
+             <a href="https://forms.gle/X2hTLHrkKNcYvZi8A" className='nav-links' onClick={closeMobileMenu} target="_blank">
               Paper Submission
-            </Link>
-            <Link to='#journal-publicationn' className='nav-links' onClick={closeMobileMenu}>
+              </a>
+            
+            <Link to='#journal-publication' className='nav-links' onClick={closeMobileMenu}>
               Journal Publication
             </Link>
             <Link to='#payment-details' className='nav-links' onClick={closeMobileMenu}>
