@@ -3,8 +3,10 @@
     background-color:rgb(242, 242, 236);
     max-width: 80%;
     margin-left: 10%;
-    text-align: justify;
+    
 }
+
+
 
 .call-container h2{
     font-family: 'Montserrat',sans-serif;
@@ -14,6 +16,7 @@
 .call-container p{
     font-family: 'open sans',sans-serif;
     font-size:22px;
+    text-align: justify;
 }
 
 .call-container>p>a{
