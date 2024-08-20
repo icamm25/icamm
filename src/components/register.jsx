@@ -13,9 +13,9 @@ export default function Register(){
                 {/* <a href=''> */}
                     <div className='register-btn'>
                 
-                        <a href="https://forms.gle/RrUb9qtFo1zrtkfy5" target='_blank'><div className='text-inner'>
+                        <div className='text-inner' onClick={()=>setModal0(true)}>
                             Register
-                        </div></a>
+                        </div>
 
                         <div className='symbol'>
                             &gt;
@@ -34,3 +34,4 @@ export default function Register(){
         </div>
     )
 }
+{/* <a href="https://forms.gle/RrUb9qtFo1zrtkfy5" target='_blank'></a> */}

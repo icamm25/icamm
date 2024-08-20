@@ -32,7 +32,7 @@
 }
 .r_head{
     display: grid;
-    grid-template-columns: 0.7fr 2fr 2fr;
+    grid-template-columns: 0.7fr 2fr 1fr 1fr;
     grid-template-rows:90px;
     column-gap: 10px;
 }
@@ -41,12 +41,17 @@
     font-size:clamp(10px,20px,25px);
     margin: 0;
     text-align: center;
+    vertical-align: middle;
     margin-top: 5px;
 }
 
 .r_box{
     border:none;
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
 }
 .r_box:nth-child(2n){
     background-color: var(--bg4);
@@ -74,7 +79,7 @@
 .r_grid-container {
     margin-top: 50px;
     display: grid;
-    grid-template-columns: 0.7fr 2fr 2fr;
+    grid-template-columns: 0.7fr 2fr 1fr 1fr;
     grid-template-rows:repeat(4,60px);
     grid-gap: 10px; /* Gap between grid items */
   }
@@ -179,7 +184,7 @@
     .r_grid-container {
         margin-top: 50px;
         display: grid;
-        grid-template-columns: 0.7fr 2fr 2fr;
+        grid-template-columns: 0.7fr 2fr 1fr 1fr;
         grid-template-rows:repeat(4,85px);
         grid-gap: 10px; /* Gap between grid items */
       }
@@ -199,6 +204,7 @@
         font-size: 20px;
         margin: 0;
         margin-top: 5px;
+        text-align: center;
     }
     .pay_title{
         font-family: var(--text1);
@@ -233,6 +239,7 @@
         font-size: 17px;
         margin: 0;
         margin-top: 5px;
+        text-align: center;
     }
     
   }
@@ -256,6 +263,7 @@
         font-size: 14px;
         margin: 0;
         margin-top: 5px;
+        text-align: center;
     }
     .r_payment_grid_container{
         font-size: 0.6rem;
@@ -275,6 +283,7 @@
         font-size: 12px;
         margin: 0;
         margin-top: 5px;
+        text-align: center;
     }
     .r_payment_grid_container{
         font-size: 0.5rem;

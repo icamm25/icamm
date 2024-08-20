@@ -17,12 +17,16 @@ function Registration() {
                             <p className='reg_title'>S.No</p>
                         </div>
                         <div className="r_box ">
-                            <p className='reg_title'>Option</p>
-                            <div className="r_symbol_box"><img src="./option.svg" alt="" height={50} width={50}/></div>
+                            <p className='reg_title'>Category</p>
+                            {/* <div className="r_symbol_box"><img src="./option.svg" alt="" height={50} width={50}/></div> */}
                         </div>
                         <div className="r_box ">
-                            <p className='reg_title'>Indian Delegate</p>
-                            <div className="r_symbol_box"><img src="./rupee.png" alt="" height={40} width={40}/></div>
+                            <p className='reg_title'>Early <br/> upto<br />30/11/24</p>
+                            
+                            {/* <div className="r_symbol_box"><img src="./rupee.png" alt="" height={40} width={40}/></div> */}
+                        </div>
+                        <div className="r_box ">
+                            <p className='reg_title'>Late <br/>01/12/24<br/>onwards</p>
                         </div>
                         {/* <div className="r_box">
                             <p className='reg_title'>Foreign Delegate</p>
@@ -34,19 +38,23 @@ function Registration() {
                             <div key={index} className="r_grid-item">1</div>
                         ))} */}
                         <div className="r_grid-item">1</div>
-                        <div className="r_grid-item">Academicians</div>
+                        <div className="r_grid-item">Academicians/Part time <br />research scholars</div>
+                        <div className="r_grid-item">2500</div>
                         <div className="r_grid-item">3000</div>
                         
                         <div className="r_grid-item">2</div>
                         <div className="r_grid-item">Industry/R&D Institution participants</div>
+                        <div className="r_grid-item">3500</div>
                         <div className="r_grid-item">4000</div>
                        
                         <div className="r_grid-item">3</div>
                         <div className="r_grid-item">Full time research scholars</div>
                         <div className="r_grid-item">2000</div>
+                        <div className="r_grid-item">2500</div>
                         
                         <div className="r_grid-item">4</div>
                         <div className="r_grid-item">Accompanying guests/Spouse</div>
+                        <div className="r_grid-item">2000</div>
                         <div className="r_grid-item">2000</div>
                         
                     </div>

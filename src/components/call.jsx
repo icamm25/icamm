@@ -2,7 +2,7 @@ import './css/call.css'
 
 export default function Call() {
     return (
-        <div id='#call-for-papers' className='call-container'>
+        <div id='#submission-guidelines' className='call-container'>
             <h2>
                 GUIDELINES
             </h2>
@@ -51,7 +51,7 @@ export default function Call() {
                 Papers that do not meet the required criteria will be returned to the author for revision.</p>
             </p>
             <br />
-            <h2>
+            <h2 id="#journal-publication">
                 JOURNAL PUBLICATION
             </h2>
             <p>

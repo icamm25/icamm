@@ -181,8 +181,14 @@ function Navbar() {
           </li>
           {/* -authors- */}
           <li className={click ? 'nav-expand-item' : 'items'}>
-            <Link to='#call-for-papers' className='nav-links' onClick={closeMobileMenu}>
-              Call for papers
+            <Link to='#submission-guidelines' className='nav-links' onClick={closeMobileMenu}>
+              Submission Guidelines
+            </Link>
+            <Link to='https://forms.gle/X2hTLHrkKNcYvZi8A' className='nav-links' onClick={closeMobileMenu}>
+              Paper Submission
+            </Link>
+            <Link to='#journal-publicationn' className='nav-links' onClick={closeMobileMenu}>
+              Journal Publication
             </Link>
             <Link to='#payment-details' className='nav-links' onClick={closeMobileMenu}>
               Payment details
@@ -202,18 +208,26 @@ function Navbar() {
           </li>
           <li >
             <a
-              href='https://forms.gle/RrUb9qtFo1zrtkfy5'
-              target='_blank'
+              href='#'
+              // target='_blank'
               className='nav-links-mobile'
               onClick={() => {
-                closeMobileMenu()   
-                
+                closeMobileMenu()
+                setModal4(true)
               }}
             >
               Register
             </a>
+            
           </li>
+         
         </ul>
+        {modal4 && (
+              <Modal title={<span>Registration</span>}
+                content={<h3>Will be updated soon... </h3>}
+                close={setModal4}
+              />
+            )}
 
         <Button />
       </div>
@@ -290,3 +304,4 @@ function Navbar() {
 }
 
 export default Navbar
+// https://forms.gle/RrUb9qtFo1zrtkfy5
