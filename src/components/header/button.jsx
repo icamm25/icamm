@@ -9,7 +9,7 @@ export default function Button() {
   const [modal5, setModal5] = useState(false)
   return (
     <>
-      <a href='#' className='register-button' onClick={() => setModal5(true)}>
+      <a href='https://forms.gle/bVUAMwKCqaM5h8Ge9' target='_blank' className='register-button'>
         <button className='btn'>Register</button>
         <span className='arow'><MdKeyboardArrowRight className='right-arrow' /></span>
 

@@ -8,7 +8,7 @@ export default function Dates_item() {
                 <div className="d_info">
                     <p className="d_da" >
                         <strike  >23 October, 2024</strike><br />
-                        <span style={{color:'red'}}>07 November, 2024</span>
+                        <span style={{color:'red'}}>15 November, 2024</span>
                     </p>
                     <p className="dc_info">
                         Paper Submission

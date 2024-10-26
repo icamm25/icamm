@@ -210,12 +210,11 @@ function Navbar() {
           </li>
           <li >
             <a
-              href='#'
-              // target='_blank'
+              href='https://forms.gle/bVUAMwKCqaM5h8Ge9'
+              target='_blank'
               className='nav-links-mobile'
               onClick={() => {
                 closeMobileMenu()
-                setModal4(true)
               }}
             >
               Register

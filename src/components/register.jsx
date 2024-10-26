@@ -10,10 +10,10 @@ export default function Register(){
                     GET REGISTERED
                 </div>
 
-                {/* <a href=''> */}
+                <a href='https://forms.gle/bVUAMwKCqaM5h8Ge9' target='_blank'>
                     <div className='register-btn'>
                 
-                        <div className='text-inner' onClick={()=>setModal0(true)}>
+                        <div className='text-inner'>
                             Register
                         </div>
 
@@ -28,10 +28,9 @@ export default function Register(){
                              )}    
 
                     </div>
-                {/* </a> */}
+                </a> 
 
             </div>
         </div>
     )
 }
-{/* <a href="https://forms.gle/RrUb9qtFo1zrtkfy5" target='_blank'></a> */}

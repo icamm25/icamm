@@ -64,9 +64,10 @@ export default function Call() {
                 <li>Journal of Mathematical Analysis and Modeling</li>
                 <li>Journal of Mathematical Control Sciences and Applications</li>
             </ul> 
-
-            The organizing committee is also in discussions for publication with journals that are listed in
-            the Scopus/SCI. Article processing charges are journal dependent and to be borne by the authors.
+            <div className='springer'>
+                The high-quality manuscripts are also being discussed for <b>SPRINGER NATURE</b> publishing.
+            </div>
+            Article processing charges are journal dependent and to be borne by the authors.
             </p>
             <br />
             <h2>
