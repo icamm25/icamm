@@ -2,6 +2,9 @@
   height: 100svh;
   position: relative;
 }
+.tn{
+  align-items:center;
+}
 .navbar {
     background:#2A2F33;
     height: 74px;

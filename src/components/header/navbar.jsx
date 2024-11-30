@@ -296,6 +296,21 @@ function Navbar() {
             <h2 className='h_college'>PSG COLLEGE OF TECHNOLOGY</h2>
             <p className='h_place'>Coimbatore-641004, Tamilnadu, India.</p>
           </motion.div>
+          <motion.div className='tn'
+          initial={{
+            display: "flex",
+            flexDirection: "column",
+            x: -400
+          }}
+          transition={{
+            duration: 1
+          }}
+          whileInView={{
+            x: 0
+          }}
+          >
+            <img  src="/tnscst.png" className='psg-logo'/>
+          </motion.div>
 
         </div>
       </div>
